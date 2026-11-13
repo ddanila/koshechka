@@ -35,9 +35,55 @@ jobs:
       - run: pip install -r requirements-dev.txt
       - run: python -m playwright install --with-deps chromium
       - run: python scripts/browser_smoke.py
+  native:
+    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        compiler: [gcc, clang]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: python scripts/native_presets.py --check
+      - run: make -C native CC=${{ matrix.compiler }}
+      - run: python scripts/check_native.py
+      - run: python scripts/native_memory.py --cc ${{ matrix.compiler }}
+      - run: make -C native -B CC=${{ matrix.compiler }} CFLAGS='-std=c99 -O1 -g -Wall -Wextra -Werror -ffp-contract=off -fno-fast-math -fsanitize=address,undefined'
+      - run: python scripts/check_native.py
+  research:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements-research.txt
+      - run: python scripts/check_research.py
+  formal:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.elan
+            formal/.lake
+          key: lean-${{ runner.os }}-${{ hashFiles('formal/lean-toolchain', 'formal/lake-manifest.json') }}
+      - name: Install elan
+        run: |
+          if [ ! -x "$HOME/.elan/bin/elan" ]; then
+            curl -sSf https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -o /tmp/elan-init.sh
+            sh /tmp/elan-init.sh -y --default-toolchain none --no-modify-path
+          fi
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - run: lake exe cache get
+        working-directory: formal
+      - run: python scripts/check_formal.py
   deploy:
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-    needs: [numerical, browser]
+    needs: [numerical, browser, native, research, formal]
     runs-on: ubuntu-22.04
     permissions:
       contents: read

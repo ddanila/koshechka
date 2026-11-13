@@ -79,3 +79,7 @@ At a negative-to-nonnegative crossing (group II), T=abs(x)/(5M): K₃=(y′)²/(
 Trajectories and phase points represent the displayed sample. The fitted cross and error come from Python's shared `phase_fit`, not a second JavaScript simulation. Phase error modulates **branch 3 only**, and only when coupling is enabled. Branch labels describe the last integration interval; t=0 is labeled initial conditions. The phase geometry displayed after a step can differ slightly from the correction frozen at the beginning of that step.
 
 For the full list of assumptions and known limitations, see [implementation notes](reconstruction/README.md). For further historical sources, see [research guide](RESEARCH.md).
+
+## Additional verification
+
+The [phase-fit study](PHASE-FIT.md) derives the chosen objective and compares alternatives. [Lean proofs](formal/README.md) establish selected real-number identities and minimization claims. The [C port](native/README.md) implements the same controller and rendering pipeline, with numerical parity checks. The [fidelity study](FIDELITY.md) changes only estimated shape/camera parameters in a named preset.

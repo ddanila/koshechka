@@ -24,3 +24,7 @@ The [1974 paper, pp. 199–200](https://etudes.ru/etudes/cat-animation/) describ
 The [Russian Virtual Computer Museum](https://www.computer-museum.ru/histussr/29-2.htm) lists BESM-4 RAM as 4096–8192 words of 45 bits. Our 835-word data estimate is about 20% of 4096 words, but excludes executable instructions, math-library code and internal scratch, system/I/O buffers and any uncounted implementation overhead. The original program's exact footprint is unknown.
 
 Python, Pillow and browser objects, stored frame histories and diagnostics are excluded. Our actual Pillow occupancy image alone uses 16,000 bytes; a 960 × 600 RGB frame uses 1,728,000 bytes. The current renderer also materializes projected geometry. The [streaming runner](reconstruction/minimal.py) avoids retaining the movie, but it still uses those modern facilities.
+
+## The implemented C port
+
+The estimate above remains a hypothetical packed layout. The new [native implementation](native/README.md) has measured storage and compiler stack reports in [this platform-specific record](research/native-memory-macos-arm64.json). It stores full rotations and both model presets, so it is larger than the hypothetical layout. The report separates read-only constants, mutable state, stack bounds and executable sections, and excludes library/system overhead.

@@ -8,7 +8,7 @@ Reconstructing the **1968 BESM-4 cat animation** from its published mathematics.
 
 Four legs driven by differential equations, a cat assembled from tapered solids, and binary printing with the Cyrillic letter **Ш**. This is an independently written reconstruction, not recovered historical source code or a frame-exact replica.
 
-The motion and leg solver fit in [one small Python file](reconstruction/kitty/core.py). A [26-line streaming runner](reconstruction/minimal.py) advances the simulation and emits one frame at a time, without storing the movie. The viewer and export tools are separate from that core.
+The motion and leg solver fit in [one small Python file](reconstruction/kitty/core.py). A [small streaming runner](reconstruction/minimal.py) advances the simulation and emits one frame at a time, without storing the movie. The viewer and export tools are separate from that core.
 
 ## Try it
 
@@ -35,6 +35,16 @@ For the small streaming path:
 ```sh
 .venv/bin/python reconstruction/minimal.py | ffmpeg -y -f rawvideo -pixel_format rgb24 -video_size 960x600 -framerate 24 -i - -pix_fmt yuv420p kitty.mp4
 ```
+
+## Further verification
+
+The default **fitted** preset improves the estimated upper body and tail against reviewed computed-film samples; `--preset baseline` reproduces the earlier model. [Measurements and limitations](FIDELITY.md) explain the modest improvement and large remaining mismatch. No original frames are bundled.
+
+- [Phase-cross study](PHASE-FIT.md): derivation, alternative interpretations and recorded experiments.
+- [Lean proofs](formal/README.md): landing boundary conditions and the real-number cross minimizer.
+- [Compact C implementation](native/README.md): complete streaming animation, Python parity checks and measured storage.
+
+In the motion inspector, step by frame with the arrow buttons (or left/right keys when no control is focused), select a leg, or select an event marker. Marker times come from the accepted integration steps; lift-off is observed at the accepted endpoint.
 
 ## What is reconstructed?
 
@@ -71,7 +81,7 @@ For strict same-platform bitwise checks, set `KOSHECHKA_STRICT_GOLDEN=1`. CI use
 .venv/bin/python scripts/browser_smoke.py
 ```
 
-GitHub Actions checks Python 3.9, 3.11 and 3.13 and the local/hosted viewer before publishing `main` to Pages. The static site is built from an explicit asset allowlist.
+GitHub Actions checks Python 3.9, 3.11 and 3.13 and the local/hosted viewer plus native GCC/Clang parity, sanitizer checks, synthetic research checks and Lean proofs before publishing `main` to Pages. The static site is built from an explicit asset allowlist.
 
 ## Credits
 

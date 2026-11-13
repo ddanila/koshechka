@@ -1,0 +1,99 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)",
+  "storage": {
+    "leg_bytes": 544,
+    "nodes_bytes": 5760,
+    "transform_bytes": 104,
+    "bitmap_bytes": 2000,
+    "output_row_bytes": 120
+  },
+  "preset_constant_bytes": 11520,
+  "stack_frames": [
+    {
+      "function": "main",
+      "bytes": 6624,
+      "kind": "static"
+    },
+    {
+      "function": "main.cold.1",
+      "bytes": 32,
+      "kind": "static"
+    },
+    {
+      "function": "main.cold.2",
+      "bytes": 32,
+      "kind": "static"
+    },
+    {
+      "function": "main.cold.3",
+      "bytes": 32,
+      "kind": "static"
+    },
+    {
+      "function": "main.cold.4",
+      "bytes": 32,
+      "kind": "static"
+    },
+    {
+      "function": "OUTLINED_FUNCTION_0",
+      "bytes": 0,
+      "kind": "static"
+    },
+    {
+      "function": "OUTLINED_FUNCTION_1",
+      "bytes": 0,
+      "kind": "static"
+    },
+    {
+      "function": "speed",
+      "bytes": 32,
+      "kind": "static"
+    },
+    {
+      "function": "initialize",
+      "bytes": 48,
+      "kind": "static"
+    },
+    {
+      "function": "advance",
+      "bytes": 560,
+      "kind": "static"
+    },
+    {
+      "function": "derivative",
+      "bytes": 112,
+      "kind": "static"
+    },
+    {
+      "function": "joints",
+      "bytes": 240,
+      "kind": "static"
+    },
+    {
+      "function": "pose",
+      "bytes": 320,
+      "kind": "static"
+    },
+    {
+      "function": "draw",
+      "bytes": 368,
+      "kind": "static"
+    },
+    {
+      "function": "visit",
+      "bytes": 864,
+      "kind": "static"
+    }
+  ],
+  "conservative_application_stack_bound_bytes": 11888,
+  "object_sections": "__TEXT\t__DATA\t__OBJC\tothers\tdec\thex\n15385\t0\t0\t224\t15609\t3cf9\tmain.o\n4120\t0\t0\t160\t4280\t10b8\tcore.o\n5082\t2036\t0\t96\t7214\t1c2e\tgeometry.o\n",
+  "executable_file_bytes": 51912,
+  "exclusions": [
+    "libc/libm internal stack and storage",
+    "loader and shared libraries",
+    "stdio buffering",
+    "OS process overhead"
+  ],
+  "note": "Legs/nodes reside in main stack: do not add their sizes to the stack bound. Preset constants occupy read-only object sections. This is not BESM executable size."
+}

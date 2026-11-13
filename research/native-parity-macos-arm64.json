@@ -1,0 +1,52 @@
+{
+  "baseline": {
+    "default": {
+      "max_state_error": 5.5067062021407764e-14,
+      "max_vertex_error": 3.452793606584237e-14,
+      "max_event_time_error": 0.0,
+      "events": 32
+    },
+    "cruise": {
+      "max_state_error": 1.829647544582258e-13,
+      "max_vertex_error": 2.8310687127941492e-14,
+      "max_event_time_error": 0.0,
+      "events": 56
+    },
+    "uncoupled": {
+      "max_state_error": 3.375077994860476e-14,
+      "max_vertex_error": 7.361888876289413e-13,
+      "max_event_time_error": 0.0,
+      "events": 32
+    },
+    "raster": {
+      "max_different_cells": 175,
+      "cells": 16000,
+      "allowed": "one-cell primitive-boundary band"
+    }
+  },
+  "fitted": {
+    "default": {
+      "max_state_error": 5.5067062021407764e-14,
+      "max_vertex_error": 3.452793606584237e-14,
+      "max_event_time_error": 0.0,
+      "events": 32
+    },
+    "cruise": {
+      "max_state_error": 1.829647544582258e-13,
+      "max_vertex_error": 2.8310687127941492e-14,
+      "max_event_time_error": 0.0,
+      "events": 56
+    },
+    "uncoupled": {
+      "max_state_error": 3.375077994860476e-14,
+      "max_vertex_error": 7.361888876289413e-13,
+      "max_event_time_error": 0.0,
+      "events": 32
+    },
+    "raster": {
+      "max_different_cells": 166,
+      "cells": 16000,
+      "allowed": "one-cell primitive-boundary band"
+    }
+  }
+}

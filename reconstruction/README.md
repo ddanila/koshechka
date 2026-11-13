@@ -95,3 +95,9 @@ Eleven tests pass, including front-elbow direction and source-table initial valu
 Qualitative comparison against the computed portions of the original film guided the estimated geometry. No phase-aligned or scale-registered match is claimed. Artist shots were not used as motion targets. The source film and comparison screenshots are not redistributed.
 
 Next useful refinement is measuring silhouettes and foot trajectories over a clean computed sequence, then fitting the omitted shape lists, camera and speed schedule. The current code and traces provide an inspectable starting point for that work.
+
+## Presets and inspection
+
+`run.py --preset fitted` (the default) uses the measured upper-body calibration; `--preset baseline` retains the previous model. `--model` still overrides either with custom JSON. The controller and default trajectory are unchanged. [Fidelity results](../FIDELITY.md) document the limits of the fit. The streaming runner accepts frame count and then preset, for example `python reconstruction/minimal.py 385 baseline`.
+
+The optional inspector supports frame stepping, leg highlighting and event navigation. Selection pauses playback. Events at integration times between displayed samples navigate to the first following sample; lift-off time is the observed accepted endpoint, not an interpolated physical root. Older exports continue to play without event diagnostics.
