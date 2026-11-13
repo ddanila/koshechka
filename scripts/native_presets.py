@@ -46,5 +46,5 @@ if __name__=='__main__':
         assert len(saved)==len(fresh),'Regenerate native presets (structure)'
         for index,(a,b) in enumerate(zip(saved,fresh)):
             assert (math.isclose(float(a),float(b),rel_tol=1e-12,abs_tol=1e-12)
-                    if index%2 else a==b),'Regenerate native presets (model changed)' 
+                    if index%2 else a==b),'Regenerate native presets (model changed)'
     else:target.write_text(generate())
