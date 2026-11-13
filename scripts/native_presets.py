@@ -1,6 +1,8 @@
 """Generate native model constants from the canonical Python presets."""
 from pathlib import Path
 import sys
+import re
+import math
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'reconstruction'))
 from kitty.core import initial_legs
 from kitty.geometry import cat
@@ -36,5 +38,13 @@ def generate():
 if __name__=='__main__':
     target=Path(__file__).resolve().parents[1]/'native/presets.h'
     if '--check' in sys.argv:
-        assert target.read_text()==generate(),'Regenerate native presets'
+        # libm differs in the last bits across macOS/Linux. Compare structure
+        # exactly and floating constants at the same tight scale as pose tests.
+        pattern=r'([-+]?(?:[0-9]+\.[0-9]*|[0-9]*\.[0-9]+)(?:e[-+]?[0-9]+)?)'
+        saved=re.split(pattern,target.read_text())
+        fresh=re.split(pattern,generate())
+        assert len(saved)==len(fresh),'Regenerate native presets (structure)'
+        for index,(a,b) in enumerate(zip(saved,fresh)):
+            assert (math.isclose(float(a),float(b),rel_tol=1e-12,abs_tol=1e-12)
+                    if index%2 else a==b),'Regenerate native presets (model changed)' 
     else:target.write_text(generate())

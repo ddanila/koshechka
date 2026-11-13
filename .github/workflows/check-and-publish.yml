@@ -38,6 +38,7 @@ jobs:
   native:
     runs-on: ubuntu-22.04
     strategy:
+      fail-fast: false
       matrix:
         compiler: [gcc, clang]
     steps:

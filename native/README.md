@@ -15,7 +15,7 @@ python scripts/native_memory.py
 
 Default output is concatenated binary PBM images, 960×600, using a 160×100 occupancy bitmap and a 120-byte output row. `--ink` reverses which region carries Ш. `--mask` emits the raw 160×100 occupancy mask; in that diagnostic encoding, set occupancy is a black PBM pixel. `--vertices` emits transformed solid vertices. `--trace` and `--events` are separate CSV modes. Events use integer IDs: 1 rear reversal, 2 front reversal, 3 touchdown; leg order is right rear, right front, left rear, left front. Viewer lift-off observations are an exporter diagnostic, not an additional controller event.
 
-Options include duration, frame rate, step size, camera angle, tracking/fixed camera, continuous walking, coupling and head turn. Both `baseline` and the default `fitted` preset are compiled from canonical Python models. Custom JSON and the experimental literal mode remain Python-only. Inference choices and numerical repairs are shared with Python.
+Options include duration, frame rate, step size, camera angle, tracking/fixed camera, continuous walking, coupling and head turn. Both `baseline` and the default `fitted` preset are compiled from canonical Python models. The generated-header check compares structure exactly and floating constants within 1e-12 to accommodate platform libm rounding. Custom JSON and the experimental literal mode remain Python-only. Inference choices and numerical repairs are shared with Python.
 
 ## Validation
 
