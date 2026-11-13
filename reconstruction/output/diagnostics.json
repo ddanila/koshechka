@@ -1,0 +1,182 @@
+{
+  "events": {
+    "right_rear": [
+      [
+        0.41600000000000004,
+        "rear reversal"
+      ],
+      [
+        2.0159999999999982,
+        "front reversal"
+      ],
+      [
+        2.248333333333329,
+        "touchdown"
+      ],
+      [
+        3.8899999999999983,
+        "rear reversal"
+      ],
+      [
+        5.486333333333342,
+        "front reversal"
+      ],
+      [
+        5.720333333333337,
+        "touchdown"
+      ],
+      [
+        7.792666666666667,
+        "rear reversal"
+      ],
+      [
+        9.441666666666652,
+        "front reversal"
+      ],
+      [
+        9.65999999999998,
+        "touchdown"
+      ]
+    ],
+    "right_front": [
+      [
+        1.2619999999999987,
+        "rear reversal"
+      ],
+      [
+        2.7916666666666665,
+        "front reversal"
+      ],
+      [
+        2.98933333333333,
+        "touchdown"
+      ],
+      [
+        4.487333333333343,
+        "rear reversal"
+      ],
+      [
+        6.099333333333338,
+        "front reversal"
+      ],
+      [
+        6.306666666666672,
+        "touchdown"
+      ],
+      [
+        8.346333333333327,
+        "rear reversal"
+      ]
+    ],
+    "left_rear": [
+      [
+        0.5566666666666666,
+        "front reversal"
+      ],
+      [
+        0.7223333333333334,
+        "touchdown"
+      ],
+      [
+        2.189666666666664,
+        "rear reversal"
+      ],
+      [
+        3.786999999999996,
+        "front reversal"
+      ],
+      [
+        4.019000000000006,
+        "touchdown"
+      ],
+      [
+        5.687666666666674,
+        "rear reversal"
+      ],
+      [
+        7.296666666666669,
+        "front reversal"
+      ],
+      [
+        7.53000000000001,
+        "touchdown"
+      ]
+    ],
+    "left_front": [
+      [
+        1.3899999999999983,
+        "front reversal"
+      ],
+      [
+        1.5833333333333333,
+        "touchdown"
+      ],
+      [
+        3.081666666666662,
+        "rear reversal"
+      ],
+      [
+        4.589333333333335,
+        "front reversal"
+      ],
+      [
+        4.787000000000012,
+        "touchdown"
+      ],
+      [
+        6.351333333333339,
+        "rear reversal"
+      ],
+      [
+        8.132999999999996,
+        "front reversal"
+      ],
+      [
+        8.342333333333329,
+        "touchdown"
+      ]
+    ]
+  },
+  "singularity_guard_calls": 0,
+  "max_height": 0.25816908720094833,
+  "min_sampled_height": 0.0,
+  "final_states": {
+    "right_rear": [
+      -0.329015431529096,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "right_front": [
+      -0.4022808059089431,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_rear": [
+      0.13242145075331443,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_front": [
+      -0.067979950377452,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "max_ik_endpoint_error": 6.4181193723673795e-12,
+  "frames": 385,
+  "dt": 0.001,
+  "fps": 24,
+  "repaired": true,
+  "coupling": true,
+  "branches_observed": [
+    1,
+    2,
+    3,
+    5,
+    6
+  ]
+}

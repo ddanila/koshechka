@@ -1,0 +1,11 @@
+{
+  "unit_tests_passed": 11,
+  "position_difference_dt_0_001_vs_0_0005": 0.0012989148088727136,
+  "max_stance_world_displacement_per_frame": 1.4699885753088893e-10,
+  "default_singularity_guard_calls": 0,
+  "literal_variant_result": "Swing selected before K2 was initialized",
+  "historical_fidelity": "Qualitative comparison only; no registered silhouette fit or recovered geometry list.",
+  "minimal_stream_matches_full_solver": true,
+  "foot_trajectories_unchanged": true,
+  "core_retains_frame_history": false
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Кошечка · reconstruction</title>
+<style>
+:root{color-scheme:dark;font:16px/1.5 system-ui,sans-serif;background:#171c1c;color:#e9e7dd}*{box-sizing:border-box}body{margin:0 auto;max-width:1320px;padding:30px}header{display:flex;justify-content:space-between;gap:20px;align-items:baseline}h1{font:500 clamp(30px,5vw,54px)/1.2 Georgia,serif;margin:0}p{color:#bcbfb7}a{color:#b8d3bf}header small{letter-spacing:.12em;text-transform:uppercase;color:#c7a976}.intro{max-width:850px;margin:12px 0 25px}.layout{display:grid;grid-template-columns:minmax(0,3fr) minmax(240px,1fr);gap:20px}.screen{background:#f5f1e7;border-radius:8px;overflow:hidden}canvas{display:block;width:100%;height:auto}aside{background:#242b2a;border:1px solid #3b4440;border-radius:8px;padding:20px}label{display:block;margin-bottom:18px;font-size:14px;color:#ccd0c8}select,button{font:inherit;background:#303c35;border:1px solid #5a6c5e;border-radius:5px;color:#f3f1e8;padding:8px 12px}select{display:block;margin-top:7px;width:100%}button{cursor:pointer}button:hover{background:#415346}input[type=range]{width:100%;accent-color:#c8b07a}input[type=checkbox]{accent-color:#c8b07a}.transport{display:flex;align-items:center;gap:14px;padding:16px 0}.transport input{flex:1}.readout{font:13px/1.7 ui-monospace,monospace;white-space:pre;color:#c9bd9e}.links{display:flex;gap:20px;flex-wrap:wrap;margin:10px 0 30px}details{border-top:1px solid #465047;padding:18px 0}summary{cursor:pointer;font-size:19px}video{max-width:720px;width:100%;display:block;margin-top:15px;background:black}.reference{display:flex;gap:10px;flex-wrap:wrap}.note{font-size:14px}footer{font-size:13px;color:#9da69e;margin-top:25px}@media(max-width:800px){body{padding:16px}.layout{grid-template-columns:1fr}header{display:block}aside{display:grid;grid-template-columns:1fr 1fr;gap:12px}.readout{grid-column:1/-1}label{margin:0}}
+</style>
+<header><h1>Кошечка</h1><small>A reconstruction of the 1968 program</small></header>
+<p class="intro">Four legs driven by the published differential equations. A cat assembled from tapered solids, printed with <b>Ш</b>. The missing shape parameters and timing are estimates.</p>
+<div class="layout">
+<main><div class="screen"><canvas id="screen" width="960" height="600" aria-label="Animated reconstruction of the BESM-4 cat"></canvas></div>
+<div class="transport"><button id="play" type="button">Pause</button><input id="time" aria-label="Animation time" type="range" min="0" max="16" step="0.0416667" value="0"><output id="clock">0.00 s</output></div></main>
+<aside>
+<label>Rendering<select id="mode"><option value="paper">White cat / Ш background</option><option value="ink">Ш cat / white background</option><option value="silhouette">Solid silhouette</option><option value="wire">Tapered solids</option></select></label>
+<label>Playback<select id="rate"><option value="0.5">½ speed</option><option value="1" selected>Normal</option><option value="2">2× speed</option></select></label>
+<label>View angle <output id="angleValue">18°</output><input id="angle" type="range" min="-70" max="70" value="18" step="1"></label>
+<label><input id="follow" type="checkbox" checked> Follow the cat</label>
+<div class="readout" id="readout"></div>
+</aside></div>
+<div class="links"><a href="output/kitty.mp4">Watch MP4</a><a href="output/kitty-travel.mp4">Fixed-camera MP4</a><a href="output/kitty.gif">Animated GIF</a><a href="README.md">Model &amp; assumptions</a><a href="output/trajectory.csv">Leg trajectories (CSV)</a><a href="output/diagnostics.json">Diagnostics</a></div>
+<p class="note">Historical reference: <a href="https://etudes.ru/etudes/cat-animation/">watch the original film at Mathematical Etudes</a>. The film includes both computer-generated and handmade animation; it is not bundled here.</p>
+<details><summary>What has been reconstructed?</summary><p>Six acceleration branches, remembered per-leg coefficients, four-leg phase coupling, constrained leg geometry, relative coordinate frames, tapered solids and orthographic binary projection. The default run walks, slows to a stop and turns its head.</p><p>Body dimensions, limb lengths, camera, character grid and movement schedules are inferred. Numerical repairs are documented in the <a href="README.md">implementation notes</a>. This is a working reconstruction, not a claim to have recovered the missing original program.</p></details>
+<footer>Source: Konstantinov, Minakhin &amp; Ponomarenko, 1974, pp. 193–209. <a href="https://etudes.ru/etudes/cat-animation/">Historical source</a> · <a href="../README.md">Project README</a></footer>
+<script src="output/animation.js"></script><script src="viewer.js"></script>
+</html>

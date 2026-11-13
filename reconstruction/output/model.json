@@ -1,0 +1,49 @@
+{
+  "leg_lengths": [
+    0.4,
+    0.36,
+    0.29
+  ],
+  "foot_length": 0.18,
+  "d": 1.0,
+  "shoulder_height": 0.75,
+  "shoulder_y": [
+    -0.62,
+    0.65
+  ],
+  "leg_depth": 0.19,
+  "body_start": [
+    0.0,
+    -0.68,
+    0.83
+  ],
+  "body_end": [
+    0.0,
+    0.73,
+    0.87
+  ],
+  "body_height": [
+    0.36,
+    0.4
+  ],
+  "body_width": [
+    0.37,
+    0.42
+  ],
+  "tail_start": [
+    0.0,
+    0.7,
+    0.94
+  ],
+  "tail_end": [
+    0.0,
+    1.4,
+    1.65
+  ],
+  "tail_thickness": [
+    0.13,
+    0.035
+  ],
+  "view_yaw_degrees": 18.0,
+  "provenance": "All shape dimensions and schedules are estimates; none is a recovered model list."
+}

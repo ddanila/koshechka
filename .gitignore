@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.tmp
+/kitty.mp4
+# Keep third-party research downloads outside this repository.
+/media/
+/sources/
+/project-2019/
+/article/pages/
+/article/qwen/

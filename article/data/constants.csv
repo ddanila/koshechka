@@ -1,0 +1,8 @@
+parameter,right_rear,right_front,left_rear,left_front,printed_page,note
+Sh_front,0.3,0.4,0.3,0.4,207,Table 3 Ш_пер
+Sh_rear,0.4,0.3,0.4,0.3,207,Table 3 Ш_зад
+5M,2.0,2.0,2.0,2.0,207,Single shared value printed across merged cells; contradicts speed-bound statement if M=0.4
+epsilon,0.001,0.001,0.001,0.001,207,Single shared value
+KM1,1.0,1.0,1.0,1.0,207,Literal table label KM_1; equations use M_1
+KM2,15.0,15.0,15.0,15.0,207,Literal table label KM_2; equations use M_2
+h,0.75,0.75,0.75,0.75,207,Single shared value
