@@ -2,6 +2,8 @@
 
 Reconstructing the **1968 BESM-4 cat animation** from its published mathematics.
 
+[Watch the original «Кошечка» on YouTube](https://www.youtube.com/watch?v=JWiWYqvP0BU) · [Historical background and paper](https://etudes.ru/etudes/cat-animation/)
+
 ![Our reconstructed cat, not a frame from the original film](reconstruction/output/kitty.gif)
 
 Four legs driven by differential equations, a cat assembled from tapered solids, and binary printing with the Cyrillic letter **Ш**. This is an independently written reconstruction, not recovered historical source code or a frame-exact replica.

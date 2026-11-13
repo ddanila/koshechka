@@ -8,6 +8,7 @@ Research, implementation, documentation and testing were carried out by **Astra 
 
 1. Н. Н. Константинов, В. В. Минахин, В. Ю. Пономаренко. «Программа, моделирующая механизм и рисующая мультфильм о нем». *Проблемы кибернетики*, вып. 28, 1974, с. 193–209. Received 25 December 1972. [DjVu hosted by Mathematical Etudes](https://etudes.ru/.data/localdocs/koshechka.djvu).
 2. [Mathematical Etudes: «Кошечка»](https://etudes.ru/etudes/cat-animation/), including the historical film and context.
+   An external [YouTube copy of «Кошечка»](https://www.youtube.com/watch?v=JWiWYqvP0BU), uploaded by **hildaslyusar**, is also linked for convenient viewing. This video URL is cited in *Математическое образование*, issue 99 ([bibliography](https://matob.ru/files/nomer99.pdf)); it is not represented here as an official rights-holder upload.
 3. Леонид Левкович-Маслюк. Interview with Николай Константинов, *Компьютерра*, № 7 (627), 2006. [MCCME-hosted text](https://old.mccme.ru/edu/konst/Computerra_cat2-2006.html). The interview distinguishes computer animation from artist additions.
 
 The CSV files in `article/data/` record numerical constants and initial conditions from tables 3–5 of the technical paper. They are factual input data, not scanned tables or a reproduction of the article's prose. The numerical shape lists were omitted from the paper; the geometry in this repository is estimated.
