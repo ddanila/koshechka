@@ -6,6 +6,8 @@ Research, implementation, documentation and testing were carried out by **Astra 
 
 ## Historical sources
 
+For the extended bibliography, exhibition pages, book editions, photographs at their original hosts and related work, see the [research guide](RESEARCH.md) and [full link catalogue](research/catalogue.json).
+
 1. Н. Н. Константинов, В. В. Минахин, В. Ю. Пономаренко. «Программа, моделирующая механизм и рисующая мультфильм о нем». *Проблемы кибернетики*, вып. 28, 1974, с. 193–209. Received 25 December 1972. [DjVu hosted by Mathematical Etudes](https://etudes.ru/.data/localdocs/koshechka.djvu).
 2. [Mathematical Etudes: «Кошечка»](https://etudes.ru/etudes/cat-animation/), including the historical film and context.
    An external [YouTube copy of «Кошечка»](https://www.youtube.com/watch?v=JWiWYqvP0BU), uploaded by **hildaslyusar**, is also linked for convenient viewing. This video URL is cited in *Математическое образование*, issue 99 ([bibliography](https://matob.ru/files/nomer99.pdf)); it is not represented here as an official rights-holder upload.

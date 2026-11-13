@@ -1,0 +1,1671 @@
+{
+  "description": "External source links found during research. No source documents or image bytes are included. Status describes the research retrieval, not guaranteed future availability. Search-engine/API requests and OCR tool downloads are excluded.",
+  "research_dates": [
+    "2026-11-12",
+    "2026-11-13"
+  ],
+  "links": [
+    {
+      "url": "https://etudes.ru/.data/localdocs/koshechka.djvu",
+      "title": "paper1974",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://etudes.ru/etudes/cat-animation/",
+      "title": "etudes",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://old.mccme.ru/edu/konst/Computerra_cat2-2006.html",
+      "title": "interview2006",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://old.mccme.ru/shen/konst/publications/koshechka.pdf",
+      "title": "computerra2006",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://etudes.ru/.data/video/EtudesRu_cat-animation.mp4",
+      "title": "film",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://www.mathnet.ru/links/bc634b3253ed9c0ea5457c9afae9b0d4/rm10052.pdf",
+      "title": "obituary2022ru",
+      "retrieval_status": "failed",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://www.mathnet.ru/links/ae605b9451287750a6fb6dbf21da3301/rm10052_eng.pdf",
+      "title": "obituary2022en",
+      "retrieval_status": "failed",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://old.mccme.ru/memoria/konst/NiSh2021-konst.pdf",
+      "title": "memorial2021",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://www.leuphana.de/newsexport/2019/01/21957-Die_Ankunft_eines_Kaetzchens.pdf",
+      "title": "exhibition2019",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://www.leuphana.de/en/dfg-programme/mecs/team/alumni/arrival-of-a-cat-at-the-display.html",
+      "title": "leuphana-project",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://archive.prometheuskzn.ru/our-archive/dvizhenie-1/",
+      "title": "prometheus",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://old.mccme.ru/shen/konst/",
+      "title": "shen-archive",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://www.kinnet.ru/cterra/627/254339.html",
+      "title": "computerra-arrival",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://etudes.ru/.data/etudes/cat-animation/02@uhd.jpg",
+      "title": "etudes-still-02",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://etudes.ru/.data/etudes/cat-animation/03@uhd.jpg",
+      "title": "etudes-still-03",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://etudes.ru/.data/etudes/cat-animation/04@uhd.jpg",
+      "title": "etudes-still-04",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://etudes.ru/.data/etudes/cat-animation/05@uhd.jpg",
+      "title": "etudes-still-05",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://etudes.ru/.data/etudes/cat-animation/06@uhd.jpg",
+      "title": "etudes-still-06",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://etudes.ru/.data/etudes/cat-animation/07@uhd.jpg",
+      "title": "etudes-still-07",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://old.mccme.ru/shen/konst/publications/Cat.avi",
+      "title": "cat-avi",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://old.mccme.ru/shen/konst/publications/5-8.pdf",
+      "title": "matob2007",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://old.mccme.ru/shen/konst/publications/koshechka.djv",
+      "title": "paper-mirror",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://thekitty.art.blog",
+      "title": "kitty-project",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://thekitty.art.blog/book-launch/",
+      "title": "book-launch",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+      "title": "warnke-interview",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+      "title": "velminski-interview",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+      "title": "blender-recreation",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://web.stanford.edu/class/sbio228/public/readings/Molecular_Simulation_I_Lecture4/Levinthal_SCIAM_66_Protein_folding.pdf",
+      "title": "levinthal1966",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://content-animation.org.uk/htmls/levinthal.htm",
+      "title": "levinthal-html",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/5930597/",
+      "title": "levinthal-metadata",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://dspace.mit.edu/bitstreams/3bd7ec3f-e641-4694-babc-9fbb6ead8ed4/download",
+      "title": "speckert1976",
+      "retrieval_status": "failed",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://dspace.mit.edu/entities/publication/81207114-cae6-47a5-acc3-3c351526543f",
+      "title": "speckert-metadata",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://history.siggraph.org/wp-content/uploads/2021/05/SVR-Issue-80-1992-Historical-Computer-Animation.pdf",
+      "title": "siggraph-filmography",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://www.computerconservationsociety.org/resurrection/res74.htm",
+      "title": "flexipede-history",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://uas.osu.edu/charles-csuri",
+      "title": "csuri-archive",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://citeseerx.ist.psu.edu/document?doi=4db6affab39a1279f0b76e07ba0d03f00de23fd7&repid=rep1&type=pdf",
+      "title": "speckert1976-citeseer",
+      "retrieval_status": "failed",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://bitsavers.trailing-edge.com/pdf/mit/ai/aim/AIM-374.pdf",
+      "title": "speckert1976-bitsavers",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://zmmu.msu.ru/morphology/library/Sukhanov_1968.djvu",
+      "title": "sukhanov1968",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://www.ciconia-x-ciconia.net/ankunft-einer-katze",
+      "title": "Ankunft einer Katze — ciconia ciconia Verlag | bücher & meer",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://www.ciconia-x-ciconia.net/impressum",
+      "title": "Impressum — ciconia ciconia Verlag | bücher & meer",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://www.ciconia-x-ciconia.net/shop",
+      "title": "SHOP — ciconia ciconia Verlag | bücher & meer",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+      "title": "AZPU-128 & BESM-4 – THE ARRIVAL OF A KITTEN",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+      "title": "ENTWICKLUNG VON ZEICHENTRICK UND COMPUTERANIMATION – THE ARRIVAL OF A KITTEN",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+      "title": "HISTORISCHER KONTEXT – THE ARRIVAL OF A KITTEN",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+      "title": "„RADIO SOWJETSKICH“ – THE ARRIVAL OF A KITTEN",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+      "title": "VOM KLÖTZCHEN ZUM KÄTZCHEN – THE ARRIVAL OF A KITTEN",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+      "title": "DAS WOHNZIMMER – THE ARRIVAL OF A KITTEN",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/2019/01/30/holzmodell/",
+      "title": "HOLZMODELL – THE ARRIVAL OF A KITTEN",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+      "title": "KINEMATISCHES KATZENMOBILÉ – THE ARRIVAL OF A KITTEN",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/about/",
+      "title": "ABOUT – THE ARRIVAL OF A KITTEN",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/category/chiefs/",
+      "title": "Chiefs – THE ARRIVAL OF A KITTEN",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/category/exhibition/",
+      "title": "Exhibition – THE ARRIVAL OF A KITTEN",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/category/projects/",
+      "title": "Projects – THE ARRIVAL OF A KITTEN",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/category/team/",
+      "title": "Team – THE ARRIVAL OF A KITTEN",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/contact/",
+      "title": "CONTACT – THE ARRIVAL OF A KITTEN",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/imprint/",
+      "title": "IMPRINT – THE ARRIVAL OF A KITTEN",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/interviews/",
+      "title": "REVIEW – THE ARRIVAL OF A KITTEN",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/kitty/",
+      "title": "KITTY SEMINAR – THE ARRIVAL OF A KITTEN",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/page/2/",
+      "title": "THE ARRIVAL OF A KITTEN – Seite 2 – WORLDS 1ST COMPUTER ANIMATION OF A LIVING CREATURE",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/students/",
+      "title": "STUDENTS – THE ARRIVAL OF A KITTEN",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://thekitty.art.blog/category/kitty/",
+      "title": "Kitty – THE ARRIVAL OF A KITTEN",
+      "retrieval_status": "downloaded",
+      "kind": "page"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/569e97df8b38d4c298ddb235/1547905607338-R7VZ8ULO4BHJVG01APCY/Konstantinow_Ankunft_einer_Katze.jpg",
+      "title": "Konstantinow_Ankunft_einer_Katze.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://www.ciconia-x-ciconia.net/ankunft-einer-katze"
+      ]
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/569e97df8b38d4c298ddb235/1588865643773-LZPQ7D7HVQQAX9T4IYCS/Bildschirmfoto%2B2020-05-07%2Bum%2B17.30.39.jpg",
+      "title": "Bildschirmfoto+2020-05-07+um+17.30.39.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://www.ciconia-x-ciconia.net/ankunft-einer-katze"
+      ]
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/569e97df8b38d4c298ddb235/1588865662149-8WTX1EPBG42543WRA9YU/Bildschirmfoto%2B2020-05-07%2Bum%2B17.30.50.jpg",
+      "title": "Bildschirmfoto+2020-05-07+um+17.30.50.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://www.ciconia-x-ciconia.net/ankunft-einer-katze"
+      ]
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/569e97df8b38d4c298ddb235/1588865696113-473KHO8I9841J2TETELD/Bildschirmfoto%2B2020-05-07%2Bum%2B17.30.56.jpg",
+      "title": "Bildschirmfoto+2020-05-07+um+17.30.56.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://www.ciconia-x-ciconia.net/ankunft-einer-katze"
+      ]
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/569e97df8b38d4c298ddb235/1588865710292-MY9HVXTTSPUD5QBF6COD/Bildschirmfoto%2B2020-05-07%2Bum%2B17.31.06.jpg",
+      "title": "Bildschirmfoto+2020-05-07+um+17.31.06.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://www.ciconia-x-ciconia.net/ankunft-einer-katze"
+      ]
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/569e97df8b38d4c298ddb235/1588865721004-N3YUTAVEBQYKNMO0ASP2/Bildschirmfoto%2B2020-05-07%2Bum%2B17.31.10.jpg",
+      "title": "Bildschirmfoto+2020-05-07+um+17.31.10.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://www.ciconia-x-ciconia.net/ankunft-einer-katze"
+      ]
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/569e97df8b38d4c298ddb235/1588865741000-74O9RAOCAEBM3K8K4YYV/Bildschirmfoto%2B2020-05-07%2Bum%2B17.31.15.jpg",
+      "title": "Bildschirmfoto+2020-05-07+um+17.31.15.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://www.ciconia-x-ciconia.net/ankunft-einer-katze"
+      ]
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/569e97df8b38d4c298ddb235/1588865753123-BKAB82DE99BB9X4B5MDU/Bildschirmfoto%2B2020-05-07%2Bum%2B17.31.19.jpg",
+      "title": "Bildschirmfoto+2020-05-07+um+17.31.19.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://www.ciconia-x-ciconia.net/ankunft-einer-katze"
+      ]
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/569e97df8b38d4c298ddb235/1588865766815-ANWJQRPAS8WJZDWGZJMR/Bildschirmfoto%2B2020-05-07%2Bum%2B17.31.30.jpg",
+      "title": "Bildschirmfoto+2020-05-07+um+17.31.30.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://www.ciconia-x-ciconia.net/ankunft-einer-katze"
+      ]
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/569e97df8b38d4c298ddb235/1588865783040-FNHKC2S2OC7XZH2J7TZI/Bildschirmfoto%2B2020-05-07%2Bum%2B17.31.37.jpg",
+      "title": "Bildschirmfoto+2020-05-07+um+17.31.37.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://www.ciconia-x-ciconia.net/ankunft-einer-katze"
+      ]
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/569e97df8b38d4c298ddb235/1588865796956-89MNZU7QRW0G7FQ7P9FC/Bildschirmfoto%2B2020-05-07%2Bum%2B17.31.43.jpg",
+      "title": "Bildschirmfoto+2020-05-07+um+17.31.43.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://www.ciconia-x-ciconia.net/ankunft-einer-katze"
+      ]
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/569e97df8b38d4c298ddb235/1588865809109-89SSJHQW4L8HFVNN2GQK/Bildschirmfoto%2B2020-05-07%2Bum%2B17.31.51.jpg",
+      "title": "Bildschirmfoto+2020-05-07+um+17.31.51.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://www.ciconia-x-ciconia.net/ankunft-einer-katze"
+      ]
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/569e97df8b38d4c298ddb235/1588865821872-MC6UBGQEZIA6Z0WTGMA5/Bildschirmfoto%2B2020-05-07%2Bum%2B17.32.05.jpg",
+      "title": "Bildschirmfoto+2020-05-07+um+17.32.05.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://www.ciconia-x-ciconia.net/ankunft-einer-katze"
+      ]
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/569e97df8b38d4c298ddb235/1588865835698-YMUNMGG6VX7RMOLICBQ6/Bildschirmfoto%2B2020-05-07%2Bum%2B17.32.22.jpg",
+      "title": "Bildschirmfoto+2020-05-07+um+17.32.22.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://www.ciconia-x-ciconia.net/ankunft-einer-katze"
+      ]
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/569e97df8b38d4c298ddb235/1588865848868-AFZDR516ZG8B3DUM0Z3R/Bildschirmfoto%2B2020-05-07%2Bum%2B17.32.29.jpg",
+      "title": "Bildschirmfoto+2020-05-07+um+17.32.29.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://www.ciconia-x-ciconia.net/ankunft-einer-katze"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/01/50832912_469549740243762_1905637548550520832_n-1.jpg",
+      "title": "50832912_469549740243762_1905637548550520832_n-1.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/01/bewegungszustaende_katze-2.jpg",
+      "title": "bewegungszustaende_katze-2.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/2019/01/30/holzmodell/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/01/dsc0272.jpg",
+      "title": "dsc0272.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/01/dsc0280.jpg",
+      "title": "dsc0280.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/01/dsc0281.jpg",
+      "title": "dsc0281.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/01/dsc0282-2.jpg",
+      "title": "dsc0282-2.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/book-launch/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/01/dsc0291.jpg",
+      "title": "dsc0291.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/01/dsc0292.jpg",
+      "title": "dsc0292.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/01/dsc0294.jpg",
+      "title": "dsc0294.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/book-launch/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/01/dsc0314.jpg",
+      "title": "dsc0314.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/01/dsc0347.jpg",
+      "title": "dsc0347.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/01/dsc0349.jpg",
+      "title": "dsc0349.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/01/katzenmodell-baum.png",
+      "title": "katzenmodell-baum.png",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/2019/01/30/holzmodell/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/01/kätzchen-poster-e1548607420181.jpg",
+      "title": "kätzchen-poster-e1548607420181.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/cropped-50832912_469549740243762_1905637548550520832_n-1.jpg",
+      "title": "cropped-50832912_469549740243762_1905637548550520832_n-1.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0325.jpg",
+      "title": "dsc0325.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0353.jpg",
+      "title": "dsc0353.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0360.jpg",
+      "title": "dsc0360.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0361.jpg",
+      "title": "dsc0361.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0365.jpg",
+      "title": "dsc0365.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0367.jpg",
+      "title": "dsc0367.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0375.jpg",
+      "title": "dsc0375.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0378.jpg",
+      "title": "dsc0378.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0384.jpg",
+      "title": "dsc0384.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0385.jpg",
+      "title": "dsc0385.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0386.jpg",
+      "title": "dsc0386.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0387.jpg",
+      "title": "dsc0387.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0389.jpg",
+      "title": "dsc0389.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0394.jpg",
+      "title": "dsc0394.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0395.jpg",
+      "title": "dsc0395.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0405.jpg",
+      "title": "dsc0405.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0406.jpg",
+      "title": "dsc0406.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0409.jpg",
+      "title": "dsc0409.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0410.jpg",
+      "title": "dsc0410.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://thekitty.art.blog/wp-content/uploads/2019/02/dsc0411.jpg",
+      "title": "dsc0411.jpg",
+      "retrieval_status": "downloaded",
+      "kind": "asset",
+      "source_pages": [
+        "https://thekitty.art.blog/",
+        "https://thekitty.art.blog/2019/01/27/katzenanimation-mit-blender/",
+        "https://thekitty.art.blog/2019/01/27/azpu-128-besm-4/",
+        "https://thekitty.art.blog/2019/01/27/entwicklung-von-zeichentrick-und-computeranimation/",
+        "https://thekitty.art.blog/2019/01/27/historischer-kontext/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-martin-warnke/",
+        "https://thekitty.art.blog/2019/01/27/interview-mit-wladimir-velminski/",
+        "https://thekitty.art.blog/2019/01/28/radio-sowjetskich/",
+        "https://thekitty.art.blog/2019/01/28/vom-kloetzchen-zum-kaetzchen/",
+        "https://thekitty.art.blog/2019/01/28/wohnzimmer/",
+        "https://thekitty.art.blog/2019/01/30/holzmodell/",
+        "https://thekitty.art.blog/2019/01/31/kinematisches-katzenmobile/",
+        "https://thekitty.art.blog/about/",
+        "https://thekitty.art.blog/book-launch/",
+        "https://thekitty.art.blog/category/chiefs/",
+        "https://thekitty.art.blog/category/exhibition/",
+        "https://thekitty.art.blog/category/projects/",
+        "https://thekitty.art.blog/category/team/",
+        "https://thekitty.art.blog/contact/",
+        "https://thekitty.art.blog/imprint/",
+        "https://thekitty.art.blog/interviews/",
+        "https://thekitty.art.blog/kitty/",
+        "https://thekitty.art.blog/page/2/",
+        "https://thekitty.art.blog/students/",
+        "https://thekitty.art.blog/category/kitty/"
+      ]
+    },
+    {
+      "url": "https://d-nb.info/1175823309/04",
+      "title": "toc-german",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://d-nb.info/1258799820/04",
+      "title": "toc-english",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://static1.squarespace.com/static/5c3f255d4eddec3f6da3db11/t/5df399f504b7db043c86bb45/1576245802231/151219HK.pdf",
+      "title": "heide-kurier-2019-12-15",
+      "retrieval_status": "failed",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://www.deutschlandfunkkultur.de/programm?cal%3Amonth=2&cal%3Ayear=2019&drsearch%3Adate=2019-02-06",
+      "title": "radio-listing",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://taz.de/dienstag-5-november-2019/!5636420/",
+      "title": "berlin-talk-listing",
+      "retrieval_status": "downloaded",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://heide-kurier.squarespace.com/s/151219HK.pdf",
+      "title": "heide-kurier-alternate",
+      "retrieval_status": "failed",
+      "kind": "document or source page"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JWiWYqvP0BU",
+      "title": "Original cartoon on YouTube",
+      "retrieval_status": "reference link; see guide for access limitations",
+      "kind": "additional reference"
+    },
+    {
+      "url": "https://d-nb.info/1175823309",
+      "title": "German National Library",
+      "retrieval_status": "reference link; see guide for access limitations",
+      "kind": "additional reference"
+    },
+    {
+      "url": "https://d-nb.info/1258799820",
+      "title": "German National Library",
+      "retrieval_status": "reference link; see guide for access limitations",
+      "kind": "additional reference"
+    },
+    {
+      "url": "https://www.zvab.com/9783945867525/Konstantinow-Kitty-engl-Unknown-Author-3945867525/plp",
+      "title": "bookseller listing",
+      "retrieval_status": "reference link; see guide for access limitations",
+      "kind": "additional reference"
+    },
+    {
+      "url": "https://zkm.de/de/bibliographie-biomedien-das-zeitalter-der-medien-mit-lebensaehnlichem-verhalten",
+      "title": "ZKM BioMedia library bibliography",
+      "retrieval_status": "reference link; see guide for access limitations",
+      "kind": "additional reference"
+    },
+    {
+      "url": "https://leuphana.academia.edu/MartinWarnke/Books",
+      "title": "Martin Warnke's Academia.edu books list",
+      "retrieval_status": "reference link; see guide for access limitations",
+      "kind": "additional reference"
+    },
+    {
+      "url": "https://alsemenov.com/konstantinov",
+      "title": "Alexei Semenov's Konstantinov bibliography",
+      "retrieval_status": "reference link; see guide for access limitations",
+      "kind": "additional reference"
+    },
+    {
+      "url": "https://doi.org/10.4213/rm10052",
+      "title": "2022 obituary, Russian DOI",
+      "retrieval_status": "reference link; see guide for access limitations",
+      "kind": "additional reference"
+    },
+    {
+      "url": "https://doi.org/10.1070/RM10052",
+      "title": "English DOI",
+      "retrieval_status": "reference link; see guide for access limitations",
+      "kind": "additional reference"
+    },
+    {
+      "url": "https://matob.ru/files/nomer99.pdf",
+      "title": "*Математическое образование*, issue 99, PDF",
+      "retrieval_status": "reference link; see guide for access limitations",
+      "kind": "additional reference"
+    },
+    {
+      "url": "https://hdl.handle.net/1721.1/6251",
+      "title": "MIT record",
+      "retrieval_status": "reference link; see guide for access limitations",
+      "kind": "additional reference"
+    }
+  ]
+}

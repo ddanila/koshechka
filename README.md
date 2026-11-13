@@ -45,6 +45,12 @@ The original paper omits the numerical shape lists and complete speed/head-turn 
 
 Read the [implementation notes](reconstruction/README.md) for equations, assumptions and limitations. The code has constant simulation-state size; this does not mean the Python interpreter or modern image buffers would fit the historical machine.
 
+## Research and further reading
+
+The [research guide](RESEARCH.md) collects the sources behind this project: the original paper and interviews, the **2019 Leuphana exhibition and its photographs**, the German and English books, publisher previews, library records, and related animation and locomotion work.
+
+Start with the [German exhibition blog](https://thekitty.art.blog/), its [exhibition review](https://thekitty.art.blog/interviews/), or the [book publisher's preview](https://www.ciconia-x-ciconia.net/ankunft-einer-katze). The guide distinguishes the exhibition's keyframed Blender recreation from the original mathematical controller and marks incomplete or unsuccessful source leads.
+
 ## Check it
 
 ```sh
