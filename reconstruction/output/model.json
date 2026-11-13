@@ -14,17 +14,17 @@
   "leg_depth": 0.19,
   "body_start": [
     0.0,
-    -0.68,
+    -0.5999448258019381,
     0.83
   ],
   "body_end": [
     0.0,
-    0.73,
+    0.6440584159344335,
     0.87
   ],
   "body_height": [
-    0.36,
-    0.4
+    0.5399999999999999,
+    0.6
   ],
   "body_width": [
     0.37,
@@ -32,18 +32,18 @@
   ],
   "tail_start": [
     0.0,
-    0.7,
+    0.6175902618549362,
     0.94
   ],
   "tail_end": [
     0.0,
-    1.4,
-    1.65
+    0.9970846200026449,
+    2.125524440257959
   ],
   "tail_thickness": [
     0.13,
     0.035
   ],
-  "view_yaw_degrees": 18.0,
-  "provenance": "All shape dimensions and schedules are estimates; none is a recovered model list."
+  "view_yaw_degrees": 27.725189670070264,
+  "provenance": "Estimated upper-body fit to eight reviewed computed-film samples; square file pixels. See FIDELITY.md. Limb lengths and controller unchanged."
 }

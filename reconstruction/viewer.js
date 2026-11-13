@@ -13,7 +13,7 @@
   const edges=[[0,1],[1,2],[2,3],[3,0],[4,5],[5,6],[6,7],[7,4],[0,4],[1,5],[2,6],[3,7]];
   let playing=true,time=0,last=performance.now(),lastIndex=-1,dirty=true;
   $('time').max=data.duration;$('time').step=1/data.fps;
-  $('angle').value=data.model.view_yaw_degrees;$('angleValue').textContent=$('angle').value+'°';
+  $('angle').value=data.model.view_yaw_degrees;$('angleValue').textContent=Number($('angle').value).toFixed(1)+'°';
   function hull(points){
     const ps=[...points].sort((a,b)=>a[0]-b[0]||a[1]-b[1]);
     const cross=(a,b,c)=>(b[0]-a[0])*(c[1]-a[1])-(b[1]-a[1])*(c[0]-a[0]);
@@ -50,18 +50,27 @@
     }
     $('clock').textContent=frame.t.toFixed(2)+' s';$('time').value=frame.t;
     const labels=['R rear ','R front','L rear ','L front'];
-    $('readout').textContent='Body speed '+frame.speed.toFixed(3)+'\n'+frame.legs.map((leg,i)=>labels[i]+'  '+(leg[1]<.001?'ground':'swing ')+'  ['+frame.branches[i]+']').join('\n');
+    $('readout').textContent='Model '+(data.preset||'legacy')+'\nBody speed '+frame.speed.toFixed(3)+'\n'+frame.legs.map((leg,i)=>labels[i]+'  '+(leg[1]<.001?'ground':'swing ')+'  ['+frame.branches[i]+']').join('\n');
   }
   window.addEventListener('resize',()=>{dirty=true;});
   $('analysis').addEventListener('toggle',()=>{dirty=true;});
   function toggle(){playing=!playing;$('play').textContent=playing?'Pause':'Play';}
   $('play').addEventListener('click',toggle);
-  $('time').addEventListener('input',()=>{time=Number($('time').value);playing=false;$('play').textContent='Play';dirty=true;});
-  for(const id of ['angle','mode','follow'])$(id).addEventListener('input',()=>{dirty=true;$('angleValue').textContent=$('angle').value+'°';});
-  document.addEventListener('keydown',e=>{if(e.code==='Space'&&e.target===document.body){e.preventDefault();toggle();}});
+  function seek(index) {
+    index=Math.max(0,Math.min(data.frames.length-1,index));
+    time=data.frames[index].t; playing=false; $('play').textContent='Play'; dirty=true;
+  }
+  function currentIndex(){return Math.max(0,Math.min(data.frames.length-1,Math.floor(time*data.fps+1e-9)));}
+  $('previous').addEventListener('click',()=>seek(currentIndex()-1));
+  $('next').addEventListener('click',()=>seek(currentIndex()+1));
+  $('time').addEventListener('input',()=>seek(Math.round(Number($('time').value)*data.fps)));
+  $('leg').addEventListener('change',()=>{dirty=true;window.KittyAnalysis.events(seek);});
+  window.KittyAnalysis.events(seek);
+  for(const id of ['angle','mode','follow'])$(id).addEventListener('input',()=>{dirty=true;$('angleValue').textContent=Number($('angle').value).toFixed(1)+'°';});
+  document.addEventListener('keydown',e=>{if(e.target!==document.body)return; if(e.code==='Space'){e.preventDefault();toggle();} if(e.code==='ArrowLeft'||e.code==='ArrowRight'){e.preventDefault();seek(currentIndex()+(e.code==='ArrowRight'?1:-1));}});
   function tick(now){
     if(playing)time=(time+Math.max(0,Math.min(.1,(now-last)/1000))*Number($('rate').value))%(data.duration+1/data.fps);
-    last=now;const index=Math.max(0,Math.min(data.frames.length-1,Math.floor(time*data.fps)));
+    last=now;const index=Math.max(0,Math.min(data.frames.length-1,Math.floor(time*data.fps+1e-9)));
     if(dirty||index!==lastIndex){draw(index);dirty=false;lastIndex=index;}
     requestAnimationFrame(tick);
   }

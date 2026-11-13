@@ -137,6 +137,260 @@
       ]
     ]
   },
+  "event_records": [
+    {
+      "leg": "right_rear",
+      "kind": "lift-off",
+      "t": 0.18166666666666667,
+      "frame": 5
+    },
+    {
+      "leg": "right_rear",
+      "kind": "rear reversal",
+      "t": 0.41600000000000004,
+      "frame": 10
+    },
+    {
+      "leg": "left_rear",
+      "kind": "front reversal",
+      "t": 0.5566666666666666,
+      "frame": 14
+    },
+    {
+      "leg": "left_rear",
+      "kind": "touchdown",
+      "t": 0.7223333333333334,
+      "frame": 18
+    },
+    {
+      "leg": "right_front",
+      "kind": "lift-off",
+      "t": 0.904,
+      "frame": 22
+    },
+    {
+      "leg": "right_front",
+      "kind": "rear reversal",
+      "t": 1.2619999999999987,
+      "frame": 31
+    },
+    {
+      "leg": "left_front",
+      "kind": "front reversal",
+      "t": 1.3899999999999983,
+      "frame": 34
+    },
+    {
+      "leg": "left_front",
+      "kind": "touchdown",
+      "t": 1.5833333333333333,
+      "frame": 38
+    },
+    {
+      "leg": "left_rear",
+      "kind": "lift-off",
+      "t": 1.9556666666666624,
+      "frame": 47
+    },
+    {
+      "leg": "right_rear",
+      "kind": "front reversal",
+      "t": 2.0159999999999982,
+      "frame": 49
+    },
+    {
+      "leg": "left_rear",
+      "kind": "rear reversal",
+      "t": 2.189666666666664,
+      "frame": 53
+    },
+    {
+      "leg": "right_rear",
+      "kind": "touchdown",
+      "t": 2.248333333333329,
+      "frame": 54
+    },
+    {
+      "leg": "left_front",
+      "kind": "lift-off",
+      "t": 2.7243333333333317,
+      "frame": 66
+    },
+    {
+      "leg": "right_front",
+      "kind": "front reversal",
+      "t": 2.7916666666666665,
+      "frame": 67
+    },
+    {
+      "leg": "right_front",
+      "kind": "touchdown",
+      "t": 2.98933333333333,
+      "frame": 72
+    },
+    {
+      "leg": "left_front",
+      "kind": "rear reversal",
+      "t": 3.081666666666662,
+      "frame": 74
+    },
+    {
+      "leg": "right_rear",
+      "kind": "lift-off",
+      "t": 3.6559999999999966,
+      "frame": 88
+    },
+    {
+      "leg": "left_rear",
+      "kind": "front reversal",
+      "t": 3.786999999999996,
+      "frame": 91
+    },
+    {
+      "leg": "right_rear",
+      "kind": "rear reversal",
+      "t": 3.8899999999999983,
+      "frame": 94
+    },
+    {
+      "leg": "left_rear",
+      "kind": "touchdown",
+      "t": 4.019000000000006,
+      "frame": 97
+    },
+    {
+      "leg": "right_front",
+      "kind": "lift-off",
+      "t": 4.130000000000002,
+      "frame": 100
+    },
+    {
+      "leg": "right_front",
+      "kind": "rear reversal",
+      "t": 4.487333333333343,
+      "frame": 108
+    },
+    {
+      "leg": "left_front",
+      "kind": "front reversal",
+      "t": 4.589333333333335,
+      "frame": 111
+    },
+    {
+      "leg": "left_front",
+      "kind": "touchdown",
+      "t": 4.787000000000012,
+      "frame": 115
+    },
+    {
+      "leg": "left_rear",
+      "kind": "lift-off",
+      "t": 5.467333333333336,
+      "frame": 132
+    },
+    {
+      "leg": "right_rear",
+      "kind": "front reversal",
+      "t": 5.486333333333342,
+      "frame": 132
+    },
+    {
+      "leg": "left_rear",
+      "kind": "rear reversal",
+      "t": 5.687666666666674,
+      "frame": 137
+    },
+    {
+      "leg": "right_rear",
+      "kind": "touchdown",
+      "t": 5.720333333333337,
+      "frame": 138
+    },
+    {
+      "leg": "left_front",
+      "kind": "lift-off",
+      "t": 6.02900000000001,
+      "frame": 145
+    },
+    {
+      "leg": "right_front",
+      "kind": "front reversal",
+      "t": 6.099333333333338,
+      "frame": 147
+    },
+    {
+      "leg": "right_front",
+      "kind": "touchdown",
+      "t": 6.306666666666672,
+      "frame": 152
+    },
+    {
+      "leg": "left_front",
+      "kind": "rear reversal",
+      "t": 6.351333333333339,
+      "frame": 153
+    },
+    {
+      "leg": "left_rear",
+      "kind": "front reversal",
+      "t": 7.296666666666669,
+      "frame": 176
+    },
+    {
+      "leg": "left_rear",
+      "kind": "touchdown",
+      "t": 7.53000000000001,
+      "frame": 181
+    },
+    {
+      "leg": "right_rear",
+      "kind": "lift-off",
+      "t": 7.644000000000006,
+      "frame": 184
+    },
+    {
+      "leg": "right_rear",
+      "kind": "rear reversal",
+      "t": 7.792666666666667,
+      "frame": 188
+    },
+    {
+      "leg": "left_front",
+      "kind": "front reversal",
+      "t": 8.132999999999996,
+      "frame": 196
+    },
+    {
+      "leg": "right_front",
+      "kind": "lift-off",
+      "t": 8.146999999999988,
+      "frame": 196
+    },
+    {
+      "leg": "left_front",
+      "kind": "touchdown",
+      "t": 8.342333333333329,
+      "frame": 201
+    },
+    {
+      "leg": "right_front",
+      "kind": "rear reversal",
+      "t": 8.346333333333327,
+      "frame": 201
+    },
+    {
+      "leg": "right_rear",
+      "kind": "front reversal",
+      "t": 9.441666666666652,
+      "frame": 227
+    },
+    {
+      "leg": "right_rear",
+      "kind": "touchdown",
+      "t": 9.65999999999998,
+      "frame": 232
+    }
+  ],
   "singularity_guard_calls": 0,
   "max_height": 0.25816908720094833,
   "min_sampled_height": 0.0,

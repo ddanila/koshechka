@@ -1,0 +1,2207 @@
+{
+  "default/chord": {
+    "events": [
+      [
+        0.41600000000000004,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        0.556,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        0.722,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        1.262,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        1.3900000000000001,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        1.584,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        2.015,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        2.19,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        2.247,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        2.7920000000000003,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        2.989,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        3.082,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        3.786,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        3.89,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        4.018,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        4.488,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        4.589,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        4.787,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        5.487,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        5.688,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        5.72,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        6.1000000000000005,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        6.308,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        6.351,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        7.297,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        7.53,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        7.793,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        8.133000000000001,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        8.342,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        8.347,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        9.442,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        9.661,
+        "right_rear",
+        "touchdown"
+      ]
+    ],
+    "max_state_difference": 0.0,
+    "max_error_jump_radians": 2.807945855276584,
+    "mean_chord_cost": 2.3195227759408925,
+    "mean_angular_cost": 2.8885034388093476,
+    "assignment_changes": 0,
+    "final_states": [
+      [
+        -0.3290002773244432,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.40211602301255694,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.13260758123732622,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.06787991880347746,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "default/angular": {
+    "events": [
+      [
+        0.41600000000000004,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        0.556,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        0.722,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        1.262,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        1.3900000000000001,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        1.584,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        2.015,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        2.19,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        2.247,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        2.7920000000000003,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        2.989,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        3.082,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        3.786,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        3.89,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        4.018,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        4.488,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        4.588,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        4.7860000000000005,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        5.487,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        5.688,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        5.72,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        6.1000000000000005,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        6.308,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        6.351,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        7.296,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        7.529,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        7.793,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        8.132,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        8.341,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        8.347,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        9.442,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        9.661,
+        "right_rear",
+        "touchdown"
+      ]
+    ],
+    "max_state_difference": 0.3257184281856557,
+    "max_error_jump_radians": 2.719347253399759,
+    "mean_chord_cost": 2.3263808802016346,
+    "mean_angular_cost": 2.8701364351799517,
+    "assignment_changes": 0,
+    "final_states": [
+      [
+        -0.32887589058929695,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.40242384379330937,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.13236888040073097,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.06795426284843699,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "default/unrestricted": {
+    "events": [
+      [
+        0.41600000000000004,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        0.556,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        0.722,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        1.262,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        1.3900000000000001,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        1.584,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        2.015,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        2.19,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        2.247,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        2.7920000000000003,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        2.989,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        3.082,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        3.786,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        3.89,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        4.018,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        4.488,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        4.589,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        4.787,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        5.487,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        5.688,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        5.72,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        6.1000000000000005,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        6.308,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        6.351,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        7.297,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        7.53,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        7.793,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        8.133000000000001,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        8.342,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        8.347,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        9.442,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        9.661,
+        "right_rear",
+        "touchdown"
+      ]
+    ],
+    "max_state_difference": 0.0,
+    "max_error_jump_radians": 3.0727627649620533,
+    "mean_chord_cost": 2.31948183091167,
+    "mean_angular_cost": 2.8883817273812973,
+    "assignment_changes": 2,
+    "final_states": [
+      [
+        -0.3290002773244432,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.40211602301255694,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.13260758123732622,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.06787991880347746,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "cruise/chord": {
+    "events": [
+      [
+        0.41600000000000004,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        0.556,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        0.722,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        1.262,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        1.3900000000000001,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        1.584,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        2.015,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        2.19,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        2.247,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        2.7920000000000003,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        2.989,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        3.082,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        3.786,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        3.89,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        4.018,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        4.488,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        4.586,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        4.783,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        5.486,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        5.6610000000000005,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        5.718,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        6.0360000000000005,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        6.235,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        6.283,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        7.251,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        7.361,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        7.485,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        7.739,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        7.811,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        8.01,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        8.946,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        9.131,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        9.181000000000001,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        9.316,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        9.512,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        9.517,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        10.714,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        10.831,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        10.949,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        11.026,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        11.074,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        11.275,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        12.413,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        12.599,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        12.628,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        12.648,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        12.784,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        12.831,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        14.18,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        14.298,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        14.343,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        14.379,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        14.415000000000001,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        14.582,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        15.879,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        15.961,
+        "right_front",
+        "front reversal"
+      ]
+    ],
+    "max_state_difference": 0.0,
+    "max_error_jump_radians": 1.3185929026116414,
+    "mean_chord_cost": 1.0236295038268888,
+    "mean_angular_cost": 1.0687446725954806,
+    "assignment_changes": 0,
+    "final_states": [
+      [
+        -0.4412841616305517,
+        0.008706763719624299,
+        0.41945062752303797,
+        -0.1499191844003869
+      ],
+      [
+        -0.40218924825864727,
+        0.05843717943330857,
+        0.12275937070902569,
+        -0.4677789894033044
+      ],
+      [
+        0.46201606779802395,
+        0.01981948318606319,
+        0.15534782393493313,
+        0.2232713993201146
+      ],
+      [
+        0.3953950953615219,
+        0.045191943542818136,
+        0.14791060685352914,
+        0.31059244162811717
+      ]
+    ]
+  },
+  "cruise/angular": {
+    "events": [
+      [
+        0.41600000000000004,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        0.556,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        0.722,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        1.262,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        1.3900000000000001,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        1.584,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        2.015,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        2.19,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        2.247,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        2.7920000000000003,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        2.989,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        3.082,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        3.786,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        3.89,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        4.018,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        4.488,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        4.586,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        4.783,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        5.486,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        5.6610000000000005,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        5.718,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        6.0360000000000005,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        6.235,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        6.283,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        7.25,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        7.361,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        7.484,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        7.739,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        7.8100000000000005,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        8.009,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        8.946,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        9.131,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        9.181000000000001,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        9.317,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        9.512,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        9.518,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        10.714,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        10.831,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        10.949,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        11.028,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        11.077,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        11.278,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        12.413,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        12.599,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        12.63,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        12.648,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        12.787,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        12.833,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        14.18,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        14.298,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        14.345,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        14.384,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        14.415000000000001,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        14.587,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        15.879,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        15.963000000000001,
+        "right_front",
+        "front reversal"
+      ]
+    ],
+    "max_state_difference": 0.03885693973926962,
+    "max_error_jump_radians": 1.2969567064951717,
+    "mean_chord_cost": 1.020398552849846,
+    "mean_angular_cost": 1.063689165716513,
+    "assignment_changes": 0,
+    "final_states": [
+      [
+        -0.4413780311325575,
+        0.008746013666905752,
+        0.41857007374784233,
+        -0.15045334536334878
+      ],
+      [
+        -0.4024387922098737,
+        0.05942465390806134,
+        0.11562702154363631,
+        -0.4645413283141762
+      ],
+      [
+        0.46217993964010545,
+        0.01959676682310458,
+        0.15712035122354762,
+        0.22216076980689822
+      ],
+      [
+        0.3945804168115849,
+        0.04334166669371664,
+        0.15750617732595168,
+        0.3061387536710078
+      ]
+    ]
+  },
+  "cruise/unrestricted": {
+    "events": [
+      [
+        0.41600000000000004,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        0.556,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        0.722,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        1.262,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        1.3900000000000001,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        1.584,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        2.015,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        2.19,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        2.247,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        2.7920000000000003,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        2.989,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        3.082,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        3.786,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        3.89,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        4.018,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        4.488,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        4.586,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        4.783,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        5.486,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        5.6610000000000005,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        5.718,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        6.0360000000000005,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        6.235,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        6.283,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        7.251,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        7.361,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        7.485,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        7.739,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        7.811,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        8.01,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        8.946,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        9.131,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        9.181000000000001,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        9.316,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        9.512,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        9.517,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        10.714,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        10.831,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        10.949,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        11.026,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        11.074,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        11.275,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        12.413,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        12.599,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        12.628,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        12.648,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        12.784,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        12.831,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        14.18,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        14.298,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        14.343,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        14.375,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        14.415000000000001,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        14.578000000000001,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        15.839,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        15.907,
+        "right_rear",
+        "front reversal"
+      ]
+    ],
+    "max_state_difference": 0.42046840932298213,
+    "max_error_jump_radians": 1.5706791895218775,
+    "mean_chord_cost": 1.0311003447652474,
+    "mean_angular_cost": 1.0778808279850665,
+    "assignment_changes": 9,
+    "final_states": [
+      [
+        -0.45160983435209784,
+        0.01344142436551788,
+        0.34593876926087436,
+        -0.18452611361526058
+      ],
+      [
+        -0.37162640610231296,
+        0.004629594976042159,
+        0.5112730853478574,
+        -0.18574347724120194
+      ],
+      [
+        0.46203991693755037,
+        0.01981948318606319,
+        0.15529443036761748,
+        0.2232713993201146
+      ],
+      [
+        0.3958286925209791,
+        0.046126977534789684,
+        0.1430159707072275,
+        0.31275654025003113
+      ]
+    ]
+  },
+  "uncoupled/chord": {
+    "events": [
+      [
+        0.41600000000000004,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        0.5680000000000001,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        0.736,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        1.262,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        1.421,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        1.621,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        2.012,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        2.212,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        2.246,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        2.79,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        2.992,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        3.14,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        3.8080000000000003,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        3.892,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        4.042,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        4.501,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        4.673,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        4.875,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        5.488,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        5.716,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        5.723,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        6.08,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        6.29,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        6.463,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        7.33,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        7.563,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        7.803,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        8.222,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        8.329,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        8.432,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        9.458,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        9.676,
+        "right_rear",
+        "touchdown"
+      ]
+    ],
+    "max_state_difference": 0.0,
+    "max_error_jump_radians": 2.8895680753376496,
+    "mean_chord_cost": 2.3968693525492566,
+    "mean_angular_cost": 3.010124483174381,
+    "assignment_changes": 0,
+    "final_states": [
+      [
+        -0.3292905774054074,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.39564607140865377,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.12183483374486025,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.0892010884516306,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "uncoupled/angular": {
+    "events": [
+      [
+        0.41600000000000004,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        0.5680000000000001,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        0.736,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        1.262,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        1.421,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        1.621,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        2.012,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        2.212,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        2.246,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        2.79,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        2.992,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        3.14,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        3.8080000000000003,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        3.892,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        4.042,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        4.501,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        4.673,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        4.875,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        5.488,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        5.716,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        5.723,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        6.08,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        6.29,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        6.463,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        7.33,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        7.563,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        7.803,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        8.222,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        8.329,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        8.432,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        9.458,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        9.676,
+        "right_rear",
+        "touchdown"
+      ]
+    ],
+    "max_state_difference": 0.0,
+    "max_error_jump_radians": 2.783014646960095,
+    "mean_chord_cost": 2.40572094586642,
+    "mean_angular_cost": 2.984414777177429,
+    "assignment_changes": 0,
+    "final_states": [
+      [
+        -0.3292905774054074,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.39564607140865377,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.12183483374486025,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.0892010884516306,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "uncoupled/unrestricted": {
+    "events": [
+      [
+        0.41600000000000004,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        0.5680000000000001,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        0.736,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        1.262,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        1.421,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        1.621,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        2.012,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        2.212,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        2.246,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        2.79,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        2.992,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        3.14,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        3.8080000000000003,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        3.892,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        4.042,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        4.501,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        4.673,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        4.875,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        5.488,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        5.716,
+        "left_rear",
+        "rear reversal"
+      ],
+      [
+        5.723,
+        "right_rear",
+        "touchdown"
+      ],
+      [
+        6.08,
+        "right_front",
+        "front reversal"
+      ],
+      [
+        6.29,
+        "right_front",
+        "touchdown"
+      ],
+      [
+        6.463,
+        "left_front",
+        "rear reversal"
+      ],
+      [
+        7.33,
+        "left_rear",
+        "front reversal"
+      ],
+      [
+        7.563,
+        "left_rear",
+        "touchdown"
+      ],
+      [
+        7.803,
+        "right_rear",
+        "rear reversal"
+      ],
+      [
+        8.222,
+        "left_front",
+        "front reversal"
+      ],
+      [
+        8.329,
+        "right_front",
+        "rear reversal"
+      ],
+      [
+        8.432,
+        "left_front",
+        "touchdown"
+      ],
+      [
+        9.458,
+        "right_rear",
+        "front reversal"
+      ],
+      [
+        9.676,
+        "right_rear",
+        "touchdown"
+      ]
+    ],
+    "max_state_difference": 0.0,
+    "max_error_jump_radians": 3.0976283868582732,
+    "mean_chord_cost": 2.396830368548392,
+    "mean_angular_cost": 3.0099981329776364,
+    "assignment_changes": 2,
+    "final_states": [
+      [
+        -0.3292905774054074,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.39564607140865377,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.12183483374486025,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.0892010884516306,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "edge_cases": {
+    "wrap": {
+      "chord": [
+        [
+          -2.8406096919120216e-17,
+          -2.220446049250313e-16,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.5707963267948966,
+          -3.141592653589793,
+          -4.71238898038469
+        ]
+      ],
+      "angular": [
+        [
+          -2.8406096919120216e-17,
+          -2.220446049250313e-16,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.5707963267948966,
+          -3.141592653589793,
+          -4.71238898038469
+        ]
+      ],
+      "unrestricted": [
+        [
+          -2.8406096919120216e-17,
+          -2.220446049250313e-16,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.5707963267948966,
+          -3.141592653589793,
+          -4.71238898038469
+        ]
+      ]
+    },
+    "degenerate": {
+      "chord": [
+        [
+          0.0,
+          1.5707963267948966,
+          3.141592653589793,
+          -1.5707963267948968
+        ],
+        [
+          0.0,
+          -1.5707963267948966,
+          -3.141592653589793,
+          -4.71238898038469
+        ]
+      ],
+      "angular": [
+        [
+          -2.356194490192345,
+          -0.7853981633974482,
+          0.7853981633974482,
+          2.356194490192345
+        ],
+        [
+          0.0,
+          -1.5707963267948966,
+          -3.141592653589793,
+          -4.71238898038469
+        ]
+      ],
+      "unrestricted": [
+        [
+          0.0,
+          1.5707963267948966,
+          3.141592653589793,
+          -1.5707963267948968
+        ],
+        [
+          0.0,
+          -1.5707963267948966,
+          -3.141592653589793,
+          -4.71238898038469
+        ]
+      ]
+    }
+  }
+}

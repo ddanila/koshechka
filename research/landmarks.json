@@ -1,0 +1,19 @@
+{
+  "source": "https://etudes.ru/.data/video/EtudesRu_cat-animation.mp4",
+  "coordinates": "720x576 file pixels; x right, y down. Approximate manual observations by Astra GPT, not instrument-grade ground truth.",
+  "landmark_order": ["back_front", "back_rear", "tail_tip", "ear_tips_mean", "muzzle_end"],
+  "uncertainty_pixels": [12, 12, 10, 14, 14],
+  "selection": "Reviewed computed frames only. 39/64 are cropped. Whiskers may be clipped in later frames; chosen central landmarks remain visible. No hidden joints or left/right leg identity assigned.",
+  "split": "First two frames of each shot calibrate; next two are held out. Shots may reuse animation and are not independent samples.",
+  "frames": [
+    {"t":41,"shot":0,"split":"calibration","points":[[380,277],[559,258],[608,108],[295,218],[258,295]]},
+    {"t":42,"shot":0,"split":"calibration","points":[[258,298],[445,280],[491,137],[177,240],[145,320]]},
+    {"t":43,"shot":0,"split":"held_out","points":[[185,319],[368,297],[415,153],[110,260],[77,338]]},
+    {"t":44,"shot":0,"split":"held_out","points":[[173,326],[332,309],[391,161],[112,276],[72,350]]},
+    {"t":66,"shot":1,"split":"calibration","points":[[416,278],[593,252],[649,110],[340,221],[301,306]]},
+    {"t":67,"shot":1,"split":"calibration","points":[[306,300],[485,272],[543,125],[238,244],[200,321]]},
+    {"t":68,"shot":1,"split":"held_out","points":[[224,323],[415,289],[451,155],[149,271],[105,345]]},
+    {"t":69,"shot":1,"split":"held_out","points":[[204,330],[378,303],[420,169],[146,283],[107,354]]}
+  ],
+  "unmeasured": "Leg overlap and absence of a marked ground plane prevent reliable side-specific joint or contact-time annotations at this sample density. Do not treat the lowest visible toe as a measured planted foot."
+}

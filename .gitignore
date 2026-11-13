@@ -12,3 +12,6 @@ __pycache__/
 /article/qwen/
 
 /_site/
+
+/formal/.lake/
+/native/build/

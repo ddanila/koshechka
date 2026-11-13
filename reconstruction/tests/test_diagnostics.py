@@ -59,7 +59,7 @@ class DiagnosticTests(unittest.TestCase):
 
     def test_stream_matches_exporter(self):
         root = Path(__file__).resolve().parents[1]
-        raw = subprocess.check_output([sys.executable, str(root/'minimal.py'), '2'])
+        raw = subprocess.check_output([sys.executable, str(root/'minimal.py'), '2', 'baseline'])
         frames, _, _ = simulate(duration=1/24)
         expected = b''
         for frame in frames:

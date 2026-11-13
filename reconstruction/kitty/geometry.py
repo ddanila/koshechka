@@ -63,7 +63,7 @@ def leaves(node, origin=(0.,0.,0.), rotation=IDENTITY, scale=1.):
         yield node.name, vertices
 
 
-DEFAULT_MODEL = {
+BASELINE_MODEL = {
     'leg_lengths':[.40,.36,.29], 'foot_length':.18, 'd':1.0,
     'shoulder_height':.75, 'shoulder_y':[-.62,.65], 'leg_depth':.19,
     'body_start':[0.,-.68,.83], 'body_end':[0.,.73,.87],
@@ -72,6 +72,10 @@ DEFAULT_MODEL = {
     'tail_thickness':[.13,.035], 'view_yaw_degrees':18.,
     'provenance':'All shape dimensions and schedules are estimates; none is a recovered model list.'
 }
+
+
+# Baseline remains immutable by convention; callers receive independent copies.
+DEFAULT_MODEL = BASELINE_MODEL
 
 
 def cat(frame, model=None, head_turn=True):

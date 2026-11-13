@@ -10,6 +10,7 @@ from PIL import Image,ImageDraw
 from kitty.experiment import simulate
 from kitty.geometry import cat,leaves,DEFAULT_MODEL
 from kitty.render import render
+from kitty.presets import PRESETS, DEFAULT_PRESET, model_for
 
 ROOT = Path(__file__).resolve().parent
 
@@ -24,12 +25,13 @@ def main():
     parser.add_argument('--no-coupling',action='store_true')
     parser.add_argument('--no-head-turn',action='store_true')
     parser.add_argument('--no-video',action='store_true')
+    parser.add_argument('--preset', choices=PRESETS, default=DEFAULT_PRESET)
     parser.add_argument('--model',type=Path,help='JSON model parameters, replacing the default model')
     parser.add_argument('--output',type=Path,default=ROOT/'output')
     args = parser.parse_args()
     if args.duration<=0 or args.duration>120 or args.fps<=0 or args.fps>120 or args.dt<=0 or args.dt>.02:
         parser.error('Use 0 < duration <= 120, 1 <= fps <= 120 and 0 < dt <= .02')
-    model = json.loads(args.model.read_text()) if args.model else DEFAULT_MODEL
+    model = json.loads(args.model.read_text()) if args.model else model_for(args.preset)
     if model['shoulder_height'] != .75:
         parser.error('shoulder_height must match the published controller constant 0.75')
     if len(model['leg_lengths']) != 3 or min(model['leg_lengths']) <= 0 or sum(model['leg_lengths']) <= .75:
@@ -44,6 +46,7 @@ def main():
         solids=list(leaves(tree))
         animation.append({**frame,'solids':[[name,[[round(c,6) for c in v] for v in vertices]] for name,vertices in solids]})
     payload={'fps':args.fps,'dt':args.dt,'duration':args.duration,'model':model,
+             'preset': 'custom' if args.model else args.preset, 'events': diagnostics['event_records'],
              'repaired':not args.literal,'coupling':not args.no_coupling,'frames':animation}
     (out/'animation.js').write_text('window.KITTY = '+json.dumps(payload,separators=(',',':'))+';\n')
     (out/'model.json').write_text(json.dumps(model,indent=2)+'\n')

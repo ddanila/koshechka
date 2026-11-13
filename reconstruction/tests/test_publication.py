@@ -11,7 +11,7 @@ from memory_budget import budget
 
 class PublicationTests(unittest.TestCase):
     def test_local_documentation_links(self):
-        for path in list(ROOT.glob('*.md')) + list((ROOT/'reconstruction').glob('*.md')):
+        for path in list(ROOT.glob('*.md')) + list((ROOT/'reconstruction').glob('*.md')) + [ROOT/'formal/README.md', ROOT/'native/README.md']:
             for link in re.findall(r'\]\(([^)]+)\)', path.read_text()):
                 if ':' in link or link.startswith('#'):
                     continue

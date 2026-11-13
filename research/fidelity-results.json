@@ -1,0 +1,689 @@
+{
+  "results": {
+    "square_pixels": {
+      "baseline": {
+        "parameters": [
+          1.0,
+          1.0,
+          0.7,
+          0.71,
+          18.0,
+          138.71985752618917,
+          446.88237751954415,
+          407.58412103931084,
+          1.521889544671343,
+          137.27631367789527,
+          486.39297620068356,
+          404.566508092472,
+          1.3921602943203482
+        ],
+        "model": {
+          "leg_lengths": [
+            0.4,
+            0.36,
+            0.29
+          ],
+          "foot_length": 0.18,
+          "d": 1.0,
+          "shoulder_height": 0.75,
+          "shoulder_y": [
+            -0.62,
+            0.65
+          ],
+          "leg_depth": 0.19,
+          "body_start": [
+            0.0,
+            -0.68,
+            0.83
+          ],
+          "body_end": [
+            0.0,
+            0.73,
+            0.87
+          ],
+          "body_height": [
+            0.36,
+            0.4
+          ],
+          "body_width": [
+            0.37,
+            0.42
+          ],
+          "tail_start": [
+            0.0,
+            0.7,
+            0.94
+          ],
+          "tail_end": [
+            0.0,
+            1.4,
+            1.65
+          ],
+          "tail_thickness": [
+            0.13,
+            0.035
+          ],
+          "view_yaw_degrees": 18.0,
+          "provenance": "All shape dimensions and schedules are estimates; none is a recovered model list."
+        },
+        "normalized_landmark_error": {
+          "calibration": 0.20625725554236887,
+          "held_out": 0.6007810529580564
+        },
+        "solver_success": true,
+        "evaluations": 11,
+        "silhouette": {
+          "phase_offsets": [
+            0.15000000000000002,
+            2.35
+          ],
+          "frames": [
+            {
+              "t": 41,
+              "split": "calibration",
+              "iou": 0.3809799996258115,
+              "threshold_sensitivity": [
+                0.378945652764447,
+                0.2834808627353198
+              ]
+            },
+            {
+              "t": 42,
+              "split": "calibration",
+              "iou": 0.30461777260380285,
+              "threshold_sensitivity": [
+                0.30237911191273725,
+                0.31034104014498326
+              ]
+            },
+            {
+              "t": 43,
+              "split": "held_out",
+              "iou": 0.17854051107762353,
+              "threshold_sensitivity": [
+                0.17906112377799294,
+                0.17091904445919046
+              ]
+            },
+            {
+              "t": 44,
+              "split": "held_out",
+              "iou": 0.1224181449749369,
+              "threshold_sensitivity": [
+                0.12297492473941567,
+                0.12153963525394172
+              ]
+            },
+            {
+              "t": 66,
+              "split": "calibration",
+              "iou": 0.27784126984126983,
+              "threshold_sensitivity": [
+                0.26787268802842934,
+                0.2651640836806539
+              ]
+            },
+            {
+              "t": 67,
+              "split": "calibration",
+              "iou": 0.27273520989034017,
+              "threshold_sensitivity": [
+                0.26823757262750164,
+                0.2783795617658817
+              ]
+            },
+            {
+              "t": 68,
+              "split": "held_out",
+              "iou": 0.13617128705729606,
+              "threshold_sensitivity": [
+                0.1335832434176131,
+                0.13530036525658629
+              ]
+            },
+            {
+              "t": 69,
+              "split": "held_out",
+              "iou": 0.14026483570377635,
+              "threshold_sensitivity": [
+                0.14220500760824456,
+                0.14118657114097932
+              ]
+            }
+          ],
+          "held_out_mean": 0.14434869470340822,
+          "interpretation": "Approximate printer-envelope overlap, not exact film pixels; thin whiskers and blurred white boundaries are uncertain."
+        }
+      },
+      "fitted": {
+        "parameters": [
+          0.8822718026499089,
+          1.4999999999999998,
+          0.3794943581477087,
+          1.185524440257959,
+          27.725189670070264,
+          164.67480064448938,
+          463.9337806973688,
+          470.22759639411345,
+          1.2820194680163013,
+          163.5201791718224,
+          503.3062319498041,
+          467.37504333006945,
+          1.1687281303824568
+        ],
+        "model": {
+          "leg_lengths": [
+            0.4,
+            0.36,
+            0.29
+          ],
+          "foot_length": 0.18,
+          "d": 1.0,
+          "shoulder_height": 0.75,
+          "shoulder_y": [
+            -0.62,
+            0.65
+          ],
+          "leg_depth": 0.19,
+          "body_start": [
+            0.0,
+            -0.5999448258019381,
+            0.83
+          ],
+          "body_end": [
+            0.0,
+            0.6440584159344335,
+            0.87
+          ],
+          "body_height": [
+            0.5399999999999999,
+            0.6
+          ],
+          "body_width": [
+            0.37,
+            0.42
+          ],
+          "tail_start": [
+            0.0,
+            0.6175902618549362,
+            0.94
+          ],
+          "tail_end": [
+            0.0,
+            0.9970846200026449,
+            2.125524440257959
+          ],
+          "tail_thickness": [
+            0.13,
+            0.035
+          ],
+          "view_yaw_degrees": 27.725189670070264,
+          "provenance": "All shape dimensions and schedules are estimates; none is a recovered model list."
+        },
+        "normalized_landmark_error": {
+          "calibration": 0.06998683095039467,
+          "held_out": 0.5348256964501079
+        },
+        "solver_success": true,
+        "evaluations": 13,
+        "silhouette": {
+          "phase_offsets": [
+            3.0500000000000003,
+            3.0500000000000003
+          ],
+          "frames": [
+            {
+              "t": 41,
+              "split": "calibration",
+              "iou": 0.48108394620022527,
+              "threshold_sensitivity": [
+                0.48671247083225305,
+                0.3054258134827962
+              ]
+            },
+            {
+              "t": 42,
+              "split": "calibration",
+              "iou": 0.6083732144814233,
+              "threshold_sensitivity": [
+                0.6040893519840137,
+                0.6095746279873742
+              ]
+            },
+            {
+              "t": 43,
+              "split": "held_out",
+              "iou": 0.3477159629309574,
+              "threshold_sensitivity": [
+                0.3482636407391742,
+                0.3363054796402889
+              ]
+            },
+            {
+              "t": 44,
+              "split": "held_out",
+              "iou": 0.22334581165832076,
+              "threshold_sensitivity": [
+                0.2243474383271488,
+                0.2216103022408363
+              ]
+            },
+            {
+              "t": 66,
+              "split": "calibration",
+              "iou": 0.37016428511338917,
+              "threshold_sensitivity": [
+                0.36509819127340737,
+                0.3436551914349472
+              ]
+            },
+            {
+              "t": 67,
+              "split": "calibration",
+              "iou": 0.5255576372441585,
+              "threshold_sensitivity": [
+                0.5248939273402281,
+                0.5177051156483086
+              ]
+            },
+            {
+              "t": 68,
+              "split": "held_out",
+              "iou": 0.3226658661062744,
+              "threshold_sensitivity": [
+                0.3090261150398129,
+                0.3317688925564424
+              ]
+            },
+            {
+              "t": 69,
+              "split": "held_out",
+              "iou": 0.26371697064618804,
+              "threshold_sensitivity": [
+                0.26664653297898044,
+                0.23708540939761327
+              ]
+            }
+          ],
+          "held_out_mean": 0.2893611528354352,
+          "interpretation": "Approximate printer-envelope overlap, not exact film pixels; thin whiskers and blurred white boundaries are uncertain."
+        }
+      },
+      "landmark_improvement": 0.10978268402973945
+    },
+    "display_4_3": {
+      "baseline": {
+        "parameters": [
+          1.0,
+          1.0,
+          0.7,
+          0.71,
+          18.0,
+          147.7758936259252,
+          476.6821143731408,
+          419.20519993784694,
+          1.5238664131626065,
+          146.27536954266165,
+          518.8252030740591,
+          416.11446771893173,
+          1.3936135847322482
+        ],
+        "model": {
+          "leg_lengths": [
+            0.4,
+            0.36,
+            0.29
+          ],
+          "foot_length": 0.18,
+          "d": 1.0,
+          "shoulder_height": 0.75,
+          "shoulder_y": [
+            -0.62,
+            0.65
+          ],
+          "leg_depth": 0.19,
+          "body_start": [
+            0.0,
+            -0.68,
+            0.83
+          ],
+          "body_end": [
+            0.0,
+            0.73,
+            0.87
+          ],
+          "body_height": [
+            0.36,
+            0.4
+          ],
+          "body_width": [
+            0.37,
+            0.42
+          ],
+          "tail_start": [
+            0.0,
+            0.7,
+            0.94
+          ],
+          "tail_end": [
+            0.0,
+            1.4,
+            1.65
+          ],
+          "tail_thickness": [
+            0.13,
+            0.035
+          ],
+          "view_yaw_degrees": 18.0,
+          "provenance": "All shape dimensions and schedules are estimates; none is a recovered model list."
+        },
+        "normalized_landmark_error": {
+          "calibration": 0.20002706754207536,
+          "held_out": 0.595949932171449
+        },
+        "solver_success": true,
+        "evaluations": 9,
+        "silhouette": {
+          "phase_offsets": [
+            0.15000000000000002,
+            2.35
+          ],
+          "frames": [
+            {
+              "t": 41,
+              "split": "calibration",
+              "iou": 0.3914271473666722,
+              "threshold_sensitivity": [
+                0.3905550982427257,
+                0.28189200947454923
+              ]
+            },
+            {
+              "t": 42,
+              "split": "calibration",
+              "iou": 0.3363308079020038,
+              "threshold_sensitivity": [
+                0.3330231115247402,
+                0.3434525340879856
+              ]
+            },
+            {
+              "t": 43,
+              "split": "held_out",
+              "iou": 0.19638036515821924,
+              "threshold_sensitivity": [
+                0.1964766484585337,
+                0.1858974358974359
+              ]
+            },
+            {
+              "t": 44,
+              "split": "held_out",
+              "iou": 0.13385161993879058,
+              "threshold_sensitivity": [
+                0.1344186046511628,
+                0.13294527684955626
+              ]
+            },
+            {
+              "t": 66,
+              "split": "calibration",
+              "iou": 0.29376272815816434,
+              "threshold_sensitivity": [
+                0.2832760854320929,
+                0.2788257991907607
+              ]
+            },
+            {
+              "t": 67,
+              "split": "calibration",
+              "iou": 0.301643008049168,
+              "threshold_sensitivity": [
+                0.2973016668552859,
+                0.3062146463687787
+              ]
+            },
+            {
+              "t": 68,
+              "split": "held_out",
+              "iou": 0.14984800976567175,
+              "threshold_sensitivity": [
+                0.14734612868531638,
+                0.14768268995768
+              ]
+            },
+            {
+              "t": 69,
+              "split": "held_out",
+              "iou": 0.14743262522741848,
+              "threshold_sensitivity": [
+                0.14917230065619408,
+                0.14699026863236409
+              ]
+            }
+          ],
+          "held_out_mean": 0.156878155022525,
+          "interpretation": "Approximate printer-envelope overlap, not exact film pixels; thin whiskers and blurred white boundaries are uncertain."
+        }
+      },
+      "fitted": {
+        "parameters": [
+          0.8822718043154224,
+          1.4999999999999998,
+          0.37949436035813267,
+          1.18552440093244,
+          19.230400259132914,
+          164.67480747818962,
+          494.86269920593946,
+          470.2276044773348,
+          1.3674873752458656,
+          163.52018614299504,
+          536.8599805884298,
+          467.3750516748177,
+          1.2466432862931993
+        ],
+        "model": {
+          "leg_lengths": [
+            0.4,
+            0.36,
+            0.29
+          ],
+          "foot_length": 0.18,
+          "d": 1.0,
+          "shoulder_height": 0.75,
+          "shoulder_y": [
+            -0.62,
+            0.65
+          ],
+          "leg_depth": 0.19,
+          "body_start": [
+            0.0,
+            -0.5999448269344873,
+            0.83
+          ],
+          "body_end": [
+            0.0,
+            0.6440584171502584,
+            0.87
+          ],
+          "body_height": [
+            0.5399999999999999,
+            0.6
+          ],
+          "body_width": [
+            0.37,
+            0.42
+          ],
+          "tail_start": [
+            0.0,
+            0.6175902630207957,
+            0.94
+          ],
+          "tail_end": [
+            0.0,
+            0.9970846233789283,
+            2.1255244009324397
+          ],
+          "tail_thickness": [
+            0.13,
+            0.035
+          ],
+          "view_yaw_degrees": 19.230400259132914,
+          "provenance": "All shape dimensions and schedules are estimates; none is a recovered model list."
+        },
+        "normalized_landmark_error": {
+          "calibration": 0.06998683071164265,
+          "held_out": 0.5348256964124337
+        },
+        "solver_success": true,
+        "evaluations": 13,
+        "silhouette": {
+          "phase_offsets": [
+            3.0,
+            3.0
+          ],
+          "frames": [
+            {
+              "t": 41,
+              "split": "calibration",
+              "iou": 0.45386800334168753,
+              "threshold_sensitivity": [
+                0.4594250245017968,
+                0.2979069254078786
+              ]
+            },
+            {
+              "t": 42,
+              "split": "calibration",
+              "iou": 0.5950920245398773,
+              "threshold_sensitivity": [
+                0.5882225040768255,
+                0.5988959383565582
+              ]
+            },
+            {
+              "t": 43,
+              "split": "held_out",
+              "iou": 0.3337129494655005,
+              "threshold_sensitivity": [
+                0.3337194107864101,
+                0.32263089841255005
+              ]
+            },
+            {
+              "t": 44,
+              "split": "held_out",
+              "iou": 0.23686388769327552,
+              "threshold_sensitivity": [
+                0.23831296678978797,
+                0.23462445267766924
+              ]
+            },
+            {
+              "t": 66,
+              "split": "calibration",
+              "iou": 0.3451670104585097,
+              "threshold_sensitivity": [
+                0.34025935413045466,
+                0.3196969314944152
+              ]
+            },
+            {
+              "t": 67,
+              "split": "calibration",
+              "iou": 0.5171360705802511,
+              "threshold_sensitivity": [
+                0.5127674488467573,
+                0.5142026990862867
+              ]
+            },
+            {
+              "t": 68,
+              "split": "held_out",
+              "iou": 0.3077489794439479,
+              "threshold_sensitivity": [
+                0.2934165213113288,
+                0.3180075632545386
+              ]
+            },
+            {
+              "t": 69,
+              "split": "held_out",
+              "iou": 0.23669246064413177,
+              "threshold_sensitivity": [
+                0.2369901716935114,
+                0.21780370624571035
+              ]
+            }
+          ],
+          "held_out_mean": 0.27875456931171394,
+          "interpretation": "Approximate printer-envelope overlap, not exact film pixels; thin whiskers and blurred white boundaries are uncertain."
+        }
+      },
+      "landmark_improvement": 0.10256605875647695
+    }
+  },
+  "media_review": {
+    "frames": [
+      {
+        "t": 41,
+        "sha256": "c061ed9b7ae81bd89c9ad3d2f037b663ca0674041b5f8b2d47d376613af071e9"
+      },
+      {
+        "t": 42,
+        "sha256": "6c725a66e520800c780021d613ca8544565c4fda02da6124c7dbd7b8565e5702"
+      },
+      {
+        "t": 43,
+        "sha256": "aa879af37b2cbbfb564fd123195c01d381c096196759cbbc7888a3b74ba6bd84"
+      },
+      {
+        "t": 44,
+        "sha256": "5fee4c39b782e33a34400d59cf2113ceca96589a7c6536fb30d950d2311b811d"
+      },
+      {
+        "t": 66,
+        "sha256": "784c6d9a172502118e08fb8ad1a319ab38b89f3511379aa0496b32594fa26774"
+      },
+      {
+        "t": 67,
+        "sha256": "d2b5039c4fde0f20a731debf8b8b5696fe64756b318bd1d1d4bd94b07c76553a"
+      },
+      {
+        "t": 68,
+        "sha256": "2fca82725beb060d8a2a82e6d349291bed505f632e645050c254d1c95a3b862b"
+      },
+      {
+        "t": 69,
+        "sha256": "5b1cbd75bb3737ca282ce0af3b27891e1ca165aeb9740923d79bff1ccaba0cf5"
+      }
+    ],
+    "exact_duplicate_count": 0,
+    "reuse_warning": "Different hashes do not rule out rephotographed, resized or polarity-inverted repetitions.",
+    "mask_review": "Dark silhouettes mostly coherent; white boundaries and thin whiskers are less reliable. Threshold sensitivity is reported."
+  },
+  "promotion": {
+    "accepted": true,
+    "checks": {
+      "square_pixels": {
+        "landmarks": true,
+        "silhouette": true,
+        "threshold_sensitivity": true
+      },
+      "display_4_3": {
+        "landmarks": true,
+        "silhouette": true,
+        "threshold_sensitivity": true
+      }
+    },
+    "max_ik_error": 6.4181193723673795e-12,
+    "geometry_and_unchanged_contact": true,
+    "preset": "fitted",
+    "reason": "Relative held-out improvement only: absolute registration error remains large, and original-film contact timing is not identified."
+  },
+  "limitations": [
+    "Upper-body landmarks do not identify leg-length ratios, shoulder placement, gait phase or contact timing.",
+    "Temporal blocks within possibly repeated shots do not establish independent generalization.",
+    "One constant image velocity per shot is an estimated registration, not the recovered speed schedule."
+  ]
+}
