@@ -8,13 +8,13 @@ This is a **source-based approximation**, not recovered original software or a f
 
 Start with [minimal.py](minimal.py): a small loop that advances four legs, constructs one pose and immediately writes one image. It does not retain animation frames, trajectories, JSON or event histories.
 
-The motion equations, phase correction, RK4 step and leg-angle solver are together in [kitty/core.py](kitty/core.py), under 200 lines including comments and blank lines. Published constants and initial states are written directly beside the algorithm and checked against the archived tables. [geometry.py](kitty/geometry.py) supplies relative transforms, tapered solids and the estimated model. The large browser animation file is an optional export, not simulation state.
+The motion equations, phase correction, RK4 step and leg-angle solver are together in [kitty/core.py](kitty/core.py) with named branches and documented numerical choices. Published constants and initial states are written directly beside the algorithm and checked against the archived tables. [geometry.py](kitty/geometry.py) supplies relative transforms, tapered solids and the estimated model. The large browser animation file is an optional export, not simulation state.
 
 ```sh
 .venv/bin/python reconstruction/minimal.py | ffmpeg -y -f rawvideo -pixel_format rgb24 -video_size 960x600 -framerate 24 -i - -pix_fmt yuv420p kitty.mp4
 ```
 
-The streaming path uses constant memory with respect to movie duration: four current leg states, one small geometry tree, and image buffers. The Python interpreter, Pillow and enlarged RGB preview are modern conveniences; this is not a claim that their runtime fits BESM-4 RAM. A packed printer bitmap and native implementation would require a separate memory accounting. The history collector in `kitty/experiment.py` and the viewer/export machinery are optional tools around this core.
+The streaming path uses constant memory with respect to movie duration: four current leg states, one small geometry tree, and image buffers. The Python interpreter, Pillow and enlarged RGB preview are modern conveniences; this is not a claim that their runtime fits BESM-4 RAM. A packed printer bitmap and native implementation are estimated in the [memory accounting](../MEMORY.md). The history collector in `kitty/experiment.py` and the viewer/export machinery are optional tools around this core.
 
 **Front-leg correction:** the previous solver chose the mirror-image front-leg bend. Both roots satisfy beta = 0.8 gamma and reach the same endpoint, so the old endpoint tests could not detect it. The corrected negative-gamma root puts the elbow behind the shoulder-to-foot line, matching the computed film frames. The rear-leg branch, foot trajectory and published angle ratios are unchanged. A direction-specific regression test now checks this.
 

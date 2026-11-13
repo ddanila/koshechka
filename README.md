@@ -12,6 +12,8 @@ The motion and leg solver fit in [one small Python file](reconstruction/kitty/co
 
 ## Try it
 
+**[Open the live viewer](https://ddanila.github.io/koshechka/)** — no installation needed. Expand “Explain the motion” for endpoint trajectories, the fitted phase cross and branch names synchronized with playback.
+
 Clone the repository and open [reconstruction/index.html](reconstruction/index.html) in a browser. No server is required: the generated demonstration is bundled. Scrub through the motion, rotate the view, switch between Ш printing, silhouette and wireframe, or turn off camera tracking to see the cat cross the frame.
 
 You can also download the [close-up MP4](reconstruction/output/kitty.mp4) or [fixed-camera MP4](reconstruction/output/kitty-travel.mp4).
@@ -43,6 +45,8 @@ For the small streaming path:
 
 The original paper omits the numerical shape lists and complete speed/head-turn schedules. Those are estimated here. Small-step integration also needs explicit handling of sign changes and touchdown; these departures from a literal transcription are documented. The film's handmade grimaces and arched-back scenes are not reproduced.
 
+The [paper-to-code guide](PAPER-TO-CODE.md) maps published rules to functions and explains the remaining uncertainties. The [memory budget](MEMORY.md) estimates compact data storage separately from the Python runtime.
+
 Read the [implementation notes](reconstruction/README.md) for equations, assumptions and limitations. The code has constant simulation-state size; this does not mean the Python interpreter or modern image buffers would fit the historical machine.
 
 ## Research and further reading
@@ -57,7 +61,17 @@ Start with the [German exhibition blog](https://thekitty.art.blog/), its [exhibi
 PYTHONPATH=reconstruction .venv/bin/python -m unittest discover -s reconstruction/tests -v
 ```
 
-Eleven tests cover numerical convergence, stationary stance feet, stopping, joint constraints, front-elbow direction, coordinate transforms, phase wrapping, landing and correspondence with the source tables.
+Tests cover numerical convergence, stationary stance feet, stopping, joint constraints, front-elbow direction, coordinate transforms, phase wrapping, landing and correspondence with the source tables. Pre-refactor fixtures also check three complete integration runs, event ordering, sampled poses and rendering.
+
+For strict same-platform bitwise checks, set `KOSHECHKA_STRICT_GOLDEN=1`. CI uses tight numeric tolerances across Python/platform versions. Browser checks are optional developer dependencies:
+
+```sh
+.venv/bin/python -m pip install -r requirements-dev.txt
+.venv/bin/python -m playwright install chromium
+.venv/bin/python scripts/browser_smoke.py
+```
+
+GitHub Actions checks Python 3.9, 3.11 and 3.13 and the local/hosted viewer before publishing `main` to Pages. The static site is built from an explicit asset allowlist.
 
 ## Credits
 

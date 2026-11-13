@@ -24,6 +24,7 @@
   }
   function polygon(context,points){context.beginPath();points.forEach((p,i)=>i?context.lineTo(...p):context.moveTo(...p));context.closePath();context.fill();}
   function draw(index){
+    window.KittyAnalysis.draw(index);
     const frame=data.frames[index],mode=$('mode').value;
     const angle=Number($('angle').value)*Math.PI/180,c=Math.cos(angle),s=Math.sin(angle);
     const following=$('follow').checked,span=following?5.2:9.;
@@ -51,6 +52,8 @@
     const labels=['R rear ','R front','L rear ','L front'];
     $('readout').textContent='Body speed '+frame.speed.toFixed(3)+'\n'+frame.legs.map((leg,i)=>labels[i]+'  '+(leg[1]<.001?'ground':'swing ')+'  ['+frame.branches[i]+']').join('\n');
   }
+  window.addEventListener('resize',()=>{dirty=true;});
+  $('analysis').addEventListener('toggle',()=>{dirty=true;});
   function toggle(){playing=!playing;$('play').textContent=playing?'Pause':'Play';}
   $('play').addEventListener('click',toggle);
   $('time').addEventListener('input',()=>{time=Number($('time').value);playing=false;$('play').textContent='Play';dirty=true;});
