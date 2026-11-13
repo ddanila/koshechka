@@ -1,5 +1,5 @@
 """Optional history/diagnostic collection; not part of the simulation core."""
-from .core import initial_legs, step, speed
+from .core import initial_legs, step, speed, phase_fit
 
 
 def simulate(duration=16., fps=24, dt=.001, stop=True, repaired=True, coupling=True, length=1.05):
@@ -18,8 +18,10 @@ def simulate(duration=16., fps=24, dt=.001, stop=True, repaired=True, coupling=T
             v1, _ = speed(t+delta, stop)
             distance += delta*(v0+v1)/2
             t += delta
+        phases, targets, errors = phase_fit(legs)
         frames.append({'t': target, 'distance': distance, 'speed': speed(t,stop)[0],
-                       'legs': [leg.state[:] for leg in legs], 'branches': [leg.branch for leg in legs]})
+                       'legs': [leg.state[:] for leg in legs], 'branches': [leg.branch for leg in legs],
+                       'analysis': dict(phases=phases, targets=targets, errors=errors)})
         traces.extend({'t': target, 'leg':leg.name, 'branch':leg.branch,
                        **dict(zip(('x','y','dx','dy'),leg.state))} for leg in legs)
     diagnostics = {'events': events,
