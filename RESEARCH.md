@@ -1,6 +1,6 @@
 # Sources and further reading
 
-Research collected 12–13 November 2026. These are external links, not copies of the historical works or a grant of rights to redistribute them. The [full link catalogue](research/catalogue.json) also lists the individual exhibition photographs, publisher preview images, mirrors and unsuccessful retrievals found during the research.
+Research collected 12–14 November 2026. These are external links, not copies of the historical works or a grant of rights to redistribute them. The [full link catalogue](research/catalogue.json) also lists the individual exhibition photographs, publisher preview images, mirrors and unsuccessful retrievals found during the research.
 
 ## Start here
 
@@ -9,6 +9,7 @@ Research collected 12–13 November 2026. These are external links, not copies o
 - [1974 technical paper, DjVu](https://etudes.ru/.data/localdocs/koshechka.djvu) — the mathematical basis of this reconstruction.
 - [The Arrival of a Kitten: German exhibition project](https://thekitty.art.blog/) — the 2018–2019 Leuphana seminar, exhibition, interviews, models and photographs.
 - [Ankunft einer Katze: publisher page and preview](https://www.ciconia-x-ciconia.net/ankunft-einer-katze) — the 2019 book, including selected reproduced printer-output spreads.
+- [Historical programming and libraries](#historical-programming-and-libraries) — Б-61, ИС-22, programming notation, machine documentation and an M-20 emulator.
 
 ## Original paper, film and first-person history
 
@@ -73,6 +74,77 @@ No verified complete digital copy was found in our search. Other leads:
 - [*Математическое образование*, issue 99, PDF](https://matob.ru/files/nomer99.pdf) — Konstantinov-related bibliography, including the YouTube film link.
 
 An indexed December 2019 *Heide-Kurier* book-presentation lead was also found, but both issue-PDF URLs failed. They are retained as unsuccessful leads in the link catalogue, not presented as working sources.
+
+## Historical programming and libraries
+
+These public sources help explain the programming environment around M-20 and
+BESM-4. They do not establish which library version was used for the cat. The
+summaries below come from published books, papers and catalogues; they contain
+no transcription or analysis of the unpublished original cat source code.
+
+### Kronrod and the Б-61 library
+
+**А. С. Кронрод, *Беседы о программировании*, 2nd stereotyped edition, Едиториал
+УРСС, 2004.** [Public scan](https://is.ifmo.ru/books/cronrod.pdf). Page numbers below
+are printed folios; in these sections the PDF page is one less.
+
+| Printed pages | What the book documents |
+|---|---|
+| 51–61 | Standard-library organization, shared argument/result cells and fixed entry headers. Page 54 places M-20 Б-61 headers at **7600–7766 (octal)**, while routine bodies may move. |
+| 73 | FA address formation on the modified ITEP M-20: offsets come from the middle address fields of index words; the stored following instruction remains unchanged. |
+| 229, reference 1 | **«Библиотека Б-61. Ч. I. Описание и инструкции. Ч. II. Программы». ИТЭФ, 1965.** A precise lead for library documentation and program listings. |
+| 236–239 | M-20 instruction summary: 45-bit words, three 12-bit addresses and address-register modification. This is an M-20 specification, not a complete BESM-4 manual. |
+
+The two-part **1965 Б-61 preprint** is a priority acquisition target. We have its
+bibliographic reference, not the two parts themselves. A fixed header range alone
+does not identify individual routines or establish use by the cat program.
+
+### ИС-22 and programming manuals
+
+| Publication | Evidence available and intended use |
+|---|---|
+| *Дополнение к системе команд, интерпретирующая система ИС-22 и стандартные программы для машины БЭСМ-4. Инструкция.* ИПМ, 1967. | Identified in reference 12 of [*Информатика в ИПМ* (2013)](https://keldysh.ru/papers/2013/prep2013_29.pdf#page=31), printed p.30 / PDF p.31. The instruction itself has not been obtained. It could clarify command extensions and standard-program interfaces. |
+| М. Р. Шура-Бура, *Интерпретирующая система ИС-22 для М-220 и БЭСМ-4*. Moscow, 1969, 30 pp.; *Стандартные программы ИС-22*, issue 001. | [Russian State Library record](https://search.rsl.ru/ru/record/01007104092). A separate publication from the 1967 instruction; no full text obtained. |
+| В. Ф. Ляшенко, *Программирование для ЦВМ с системой команд типа М-20*. 2nd revised and expanded edition, Советское радио, 1974, 414 pp. | [Russian State Library record](https://search.rsl.ru/ru/record/01007162274). A lead for programming conventions across the M-20 family; no complete scan obtained. |
+
+The [2013 IPM history](https://keldysh.ru/papers/2013/prep2013_29.pdf#page=9), printed
+p.8 / PDF p.9, describes continuity from ИС-2 to ИС-22 as work moved from M-20 to
+BESM-4. This establishes historical context, not interchangeability of library
+binaries. Б-61 and ИС-22 remain separate research leads.
+
+### Two 1964 papers: notation and address formation
+
+- **А. Л. Брудно, «Программирование в содержательных обозначениях».** *Доклады АН
+  СССР* 154:2 (1964), pp.279–282. [Record and full text](https://www.mathnet.ru/rus/dan29026).
+  Explains semantic notation alongside encoded instructions and a memory
+  dictionary. Its example machine is hypothetical; the example opcodes are not
+  a BESM-4 instruction table.
+- **Г. М. Адельсон-Вельский, А. Л. Брудно, А. С. Кронрод, П. Т. Резниковский,
+  «О системе команд для трехадресной машины без регистра адреса».** *Доклады АН
+  СССР* 154:3 (1964), pp.545–548. [Record and full text](https://www.mathnet.ru/rus/dan29078).
+  Proposes a 43-bit machine whose FA operation uses the **third** address field
+  of index words. This differs from Kronrod's middle-field convention. The shared
+  operation name does not make these machine designs equivalent.
+
+### Hardware documentation and emulation
+
+[**БЭСМ-4, часть III: перечень и описание элементов блоков**](https://retro-computer.ru/Lists/DocumentList/DispForm.aspx?ID=965)
+is a hardware scan with 74 PDF spreads corresponding to a catalogue description
+of 147 printed pages. The printer-driver and drum-write sections describe
+electronic circuitry. They do not supply a character-code table, a verified Ш
+glyph, or a library interface. Component pulse frequencies must not be treated
+as film frame rates.
+
+The public [**rcgoff/m20 emulator**](https://github.com/rcgoff/m20) is a fork of
+Dmitry Stefankov's M-20 emulator. It is a useful starting point for studying that
+machine; adapting it to a particular BESM-4 installation requires evidence for
+the differences. It is an external project with its own licensing, not part of
+this repository's MIT implementation.
+
+The most useful further finds would be the Б-61 volumes, the 1967 ИС-22
+instruction, and documented library entry tables with argument, result and
+return conventions. These public findings do not recover the numerical cat shape
+lists omitted from the 1974 animation paper.
 
 ## Related mathematics and animation
 

@@ -2,7 +2,8 @@
   "description": "External source links found during research. No source documents or image bytes are included. Status describes the research retrieval, not guaranteed future availability. Search-engine/API requests and OCR tool downloads are excluded.",
   "research_dates": [
     "2026-11-12",
-    "2026-11-13"
+    "2026-11-13",
+    "2026-11-14"
   ],
   "links": [
     {
@@ -1666,6 +1667,70 @@
       "title": "MIT record",
       "retrieval_status": "reference link; see guide for access limitations",
       "kind": "additional reference"
+    },
+    {
+      "url": "https://is.ifmo.ru/books/cronrod.pdf",
+      "title": "А. С. Кронрод — Беседы о программировании, 2-е стереотипное издание, 2004",
+      "retrieval_status": "scan reviewed",
+      "kind": "book",
+      "notes": "Printed pp.51–61: libraries; p.73: FA; p.229 ref.1: two-part Б-61 preprint, ИТЭФ, 1965; pp.236–239: M-20 instructions. The Б-61 volumes themselves have not been obtained.",
+      "research_date": "2026-11-14"
+    },
+    {
+      "url": "https://www.mathnet.ru/rus/dan29026",
+      "title": "А. Л. Брудно — Программирование в содержательных обозначениях (1964), 154:2, 279–282",
+      "retrieval_status": "full text reviewed",
+      "kind": "paper",
+      "notes": "Semantic notation and encoded instructions; illustrative machine is hypothetical.",
+      "research_date": "2026-11-14"
+    },
+    {
+      "url": "https://www.mathnet.ru/rus/dan29078",
+      "title": "Г. М. Адельсон-Вельский и др. — О системе команд для трехадресной машины без регистра адреса (1964), 154:3, 545–548",
+      "retrieval_status": "full text reviewed",
+      "kind": "paper",
+      "notes": "Proposed 43-bit machine; FA uses third address fields. Not a BESM-4 instruction specification.",
+      "research_date": "2026-11-14"
+    },
+    {
+      "url": "https://keldysh.ru/papers/2013/prep2013_29.pdf",
+      "title": "Информатика в ИПМ (2013)",
+      "retrieval_status": "selected pages reviewed",
+      "kind": "history and bibliography",
+      "notes": "Printed p.8 / PDF9: ИС-2 and ИС-22 context. Printed p.30 / PDF31, reference 12: 1967 BESM-4 command-extension, ИС-22 and standard-program instruction. The cited instruction has not been obtained.",
+      "research_date": "2026-11-14"
+    },
+    {
+      "url": "https://search.rsl.ru/ru/record/01007104092",
+      "title": "М. Р. Шура-Бура — Интерпретирующая система ИС-22 для М-220 и БЭСМ-4 (1969)",
+      "retrieval_status": "catalogue verified; full text not obtained",
+      "kind": "library catalogue",
+      "notes": "30 pp., Стандартные программы ИС-22, issue 001. Distinct from the 1967 instruction.",
+      "research_date": "2026-11-14"
+    },
+    {
+      "url": "https://search.rsl.ru/ru/record/01007162274",
+      "title": "В. Ф. Ляшенко — Программирование для ЦВМ с системой команд типа М-20 (1974)",
+      "retrieval_status": "catalogue reviewed; complete scan not obtained",
+      "kind": "library catalogue",
+      "notes": "2nd revised and expanded edition, Советское радио, 414 pp. Current automated recheck failed; bibliographic details were checked in the previously retrieved catalogue record.",
+      "research_date": "2026-11-14"
+    },
+    {
+      "url": "https://retro-computer.ru/Lists/DocumentList/DispForm.aspx?ID=965",
+      "title": "БЭСМ-4. Часть III. Перечень и описание элементов блоков",
+      "retrieval_status": "selected scan pages reviewed",
+      "kind": "hardware manual",
+      "notes": "74 PDF spreads; catalogue lists 147 printed pages. Electronic circuitry, including printer and drum blocks; no library ABI established.",
+      "research_date": "2026-11-14"
+    },
+    {
+      "url": "https://github.com/rcgoff/m20",
+      "title": "rcgoff/m20 — M-20 emulator",
+      "retrieval_status": "repository page verified",
+      "kind": "external software",
+      "notes": "Fork of Dmitry Stefankov’s emulator. External project; its own licensing applies. Not an authenticated BESM-4 environment for the cat.",
+      "research_date": "2026-11-14"
     }
   ]
 }

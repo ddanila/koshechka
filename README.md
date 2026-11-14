@@ -65,6 +65,11 @@ The [research guide](RESEARCH.md) collects the sources behind this project: the 
 
 Start with the [German exhibition blog](https://thekitty.art.blog/), its [exhibition review](https://thekitty.art.blog/interviews/), or the [book publisher's preview](https://www.ciconia-x-ciconia.net/ankunft-einer-katze). The guide distinguishes the exhibition's keyframed Blender recreation from the original mathematical controller and marks incomplete or unsuccessful source leads.
 
+The [historical programming section](RESEARCH.md#historical-programming-and-libraries)
+also covers the **Б-61 and ИС-22 libraries**, Kronrod's book, two 1964 programming
+papers, BESM-4 hardware documentation and a public M-20 emulator. It records what
+the public sources establish and which library volumes remain to be found.
+
 ## Check it
 
 ```sh
