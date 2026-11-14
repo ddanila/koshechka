@@ -190,7 +190,25 @@ ITEP's Б-61 and describes its ИНФО and П-1 dependencies. It uses Gauss for
 with three or five points and supports nested calls without multiple code copies.
 This is authentic published library material, but it is not an identified missing
 cat routine, and quadrature is distinct from trajectory integration. The foldout
-has been inspected; it has not yet been transcribed or run.
+has now been transcribed and exercised in a separate M-20 execution experiment.
+
+The reviewed listing passes analytic polynomial integrals through degree 5 with
+three-point Gauss quadrature and degree 9 with five-point quadrature. Repeated
+calls and a nested integral also pass, using the same code in memory. The original
+quadrature words execute as machine instructions; the absent low-memory support
+is explicitly reconstructed from the paper's interface descriptions and inferred
+conventions. ИНФО implements the documented four-word copy. The limited П-1
+substitute tests an explicit request and a two-cell logical output buffer; it does
+not reproduce historical console polling or printer encoding. Accuracy-controlled
+quadrature remains unvalidated.
+
+This experiment also exposed a transcription hazard: a low-resolution/OCR reading
+of one operation as `075` failed the five-point constant integral. A larger scan
+crop resolves the digit as `076`, matching the conditional-copy notation. The
+rejected reading and its failing result are retained in the private audit. Passing
+numerical tests supports the reviewed transcription; it does not identify the
+cat's missing routines or authenticate a complete Б-61 installation. No library
+listing or scan is included in this repository.
 
 **The ИС-22 bibliography is larger than a single booklet.** The bibliography in
 [М. К. Керимов's 2011 memorial](https://www.mathnet.ru/rus/zvmmf8067), printed
