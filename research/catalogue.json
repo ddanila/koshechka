@@ -1731,6 +1731,108 @@
       "kind": "external software",
       "notes": "Fork of Dmitry Stefankov’s emulator. External project; its own licensing applies. Not an authenticated BESM-4 environment for the cat.",
       "research_date": "2026-11-14"
+    },
+    {
+      "url": "https://www.mathnet.ru/php/getFT.phtml?jrnid=zvmmf&paperid=8067&what=fullt",
+      "title": "Керимов: Шура-Бура memorial and bibliography (2011)",
+      "retrieval_status": "downloaded",
+      "kind": "public publication, excerpt or catalogue"
+    },
+    {
+      "url": "https://inspirehep.net/files/55a15bb549dec94ddabb02df342bdd57",
+      "title": "JINR P1-10013 (1976), BESM-4 experimental software",
+      "retrieval_status": "downloaded",
+      "kind": "public publication, excerpt or catalogue"
+    },
+    {
+      "url": "https://www.etera.ee/api/oai2/download/18211.pdf",
+      "title": "Р. Пукк (1967), contemporary Б-61 citation in journal scan",
+      "retrieval_status": "downloaded",
+      "kind": "public publication, excerpt or catalogue"
+    },
+    {
+      "url": "https://www.computer-museum.ru/books/KZEVM-s.pdf",
+      "title": "Казанский завод ЭВМ, factory history (2004)",
+      "retrieval_status": "downloaded",
+      "kind": "public publication, excerpt or catalogue"
+    },
+    {
+      "url": "https://oldpc.su/lib/catalogs/mechITR.pdf",
+      "title": "Механизация инженерно-технического и управленческого труда (1973)",
+      "retrieval_status": "downloaded",
+      "kind": "public publication, excerpt or catalogue"
+    },
+    {
+      "url": "https://www.computer-museum.ru/histussr/niism.htm",
+      "title": "С. С. Оберник: НИИсчетмаш history,1949–1999",
+      "retrieval_status": "downloaded",
+      "kind": "public publication, excerpt or catalogue"
+    },
+    {
+      "url": "https://computer-museum.ru/histussr/m20perif.htm",
+      "title": "Lyashenko1974 peripheral/input excerpt",
+      "retrieval_status": "downloaded",
+      "kind": "public publication, excerpt or catalogue"
+    },
+    {
+      "url": "https://www.mathnet.ru/php/person.phtml?option_lang=rus&personid=24726&showmode=simple&wshow=",
+      "title": "MathNet Adelson-Velsky publication list; Б-61volume1,1970",
+      "retrieval_status": "downloaded",
+      "kind": "public publication, excerpt or catalogue"
+    },
+    {
+      "url": "https://tpmail.ru/dstef/m20/index_ru.html",
+      "title": "Stefankov M-20 emulator index",
+      "retrieval_status": "failed: <urlopen error timed out>",
+      "kind": "public publication, excerpt or catalogue"
+    },
+    {
+      "url": "https://studfile.net/preview/19266501/page:19/",
+      "title": "Maintenance textbook, Studfile page19",
+      "retrieval_status": "failed: HTTP Error 410: Gone",
+      "kind": "public publication, excerpt or catalogue"
+    },
+    {
+      "url": "https://publ.lib.ru/ARCHIVES/G/GUTER_Rafail_Samoylovich_%28matematik%29/%c3%f3%f2%e5%f0%20%d0.%d1.,%20%c0%f0%eb%e0%e7%e0%f0%ee%e2%20%c2.%cb.,%20%d3%f1%ea%ee%e2%20%c0.%c2._%20%cf%f0%e0%ea%f2%e8%ea%e0%20%ef%f0%ee%e3%f0%e0%ec%ec%e8%f0%ee%e2%e0%ed%e8%ff.%20%d1%ef%f0%e0%e2%ee%f7%ed%e8%ea.(1965).pdf",
+      "title": "Гутер, Арлазаров, Усков: Практика программирования (1965), PDF",
+      "retrieval_status": "downloaded",
+      "kind": "public publication, excerpt or catalogue"
+    },
+    {
+      "url": "https://www.mathnet.ru/php/getFT.phtml?jrnid=zvmmf&paperid=9151&what=fullt",
+      "title": "Кабанов: review of Практика программирования (1966)",
+      "retrieval_status": "downloaded",
+      "kind": "public publication, excerpt or catalogue"
+    },
+    {
+      "url": "https://publ.lib.ru/ARCHIVES/G/GUTER_Rafail_Samoylovich_%28matematik%29/%c3%f3%f2%e5%f0%20%d0.%d1.,%20%c0%f0%eb%e0%e7%e0%f0%ee%e2%20%c2.%cb.,%20%d3%f1%ea%ee%e2%20%c0.%c2._%20%cf%f0%e0%ea%f2%e8%ea%e0%20%ef%f0%ee%e3%f0%e0%ec%ec%e8%f0%ee%e2%e0%ed%e8%ff.%20%d1%ef%f0%e0%e2%ee%f7%ed%e8%ea.(1965).djvu",
+      "title": "Практика программирования (1965), DjVu",
+      "retrieval_status": "downloaded",
+      "kind": "public publication, excerpt or catalogue"
+    },
+    {
+      "url": "https://www.mathnet.ru/php/getFT.phtml?jrnid=dan&paperid=29167&what=fullt",
+      "title": "Розенфельд: О совершенно стандартных программах (1964), with Б-61 Б-9 foldout",
+      "retrieval_status": "downloaded",
+      "kind": "public publication, excerpt or catalogue"
+    },
+    {
+      "url": "https://www.mathnet.ru/rus/dan29167",
+      "title": "Rosenfeld1964 primary paper record",
+      "retrieval_status": "located and consulted",
+      "kind": "public source record"
+    },
+    {
+      "url": "https://www.mathnet.ru/rus/zvmmf9151",
+      "title": "Kabanov1966 book-review record",
+      "retrieval_status": "located and consulted",
+      "kind": "public source record"
+    },
+    {
+      "url": "https://publ.lib.ru/ARCHIVES/G/GUTER_Rafail_Samoylovich_%28matematik%29/_Guter_R.S..html",
+      "title": "Guter public scan directory",
+      "retrieval_status": "located and consulted",
+      "kind": "public source record"
     }
   ]
 }

@@ -146,6 +146,104 @@ instruction, and documented library entry tables with argument, result and
 return conventions. These public findings do not recover the numerical cat shape
 lists omitted from the 1974 animation paper.
 
+### Further publication research (14 November 2026)
+
+**A particularly useful programming book:** Р. С. Гутер, В. Л. Арлазаров,
+А. В. Усков, *Практика программирования*, Наука, **1965**.
+The [public scan directory](https://publ.lib.ru/ARCHIVES/G/GUTER_Rafail_Samoylovich_%28matematik%29/_Guter_R.S..html)
+lists PDF and DjVu copies. [М. И. Кабанов's contemporary review](https://www.mathnet.ru/rus/zvmmf9151)
+(*ЖВММФ* 6:4, 1966, pp.782–784) confirms that the book covers semantic notation,
+subprogram organization, a concrete standard library, relocation and drum-transfer
+services. The review year is **1966**, distinct from the book's publication year.
+It is a promising source for programming conventions; it does not establish the
+cat's library version.
+
+We obtained PDF and DjVu copies and checked the PDF title page and library sections.
+In this copy, the printed folio is one less than the PDF page for these sections:
+
+| Printed pages | Verified content |
+|---|---|
+| 125–126 | Shared library workspace; argument preservation and scratch-cell caveats. Most internal algorithms are explicitly omitted. |
+| 129 | Decimal-array conversion by inclusive address range or count; conversion back and printing as a check. |
+| 131 | Elementary-function interface: argument α, results γ₀/γ₁; cosine is first, sine second. |
+| 137 | Runge–Kutta preparation/first-step and subsequent-step interfaces, working arrays and a derivative callback. No tableau or order is specified here. |
+| 168 | Stable entry headers pointing to movable routine bodies; the addresses are examples. |
+
+These are valuable interface descriptions, but the illustrative machine assumptions
+and example addresses must be checked before applying them to BESM-4. In particular,
+the Runge–Kutta interface does not recover the numerical algorithm used by the cat.
+
+**Б-61 has an independent contemporary citation.** Р. Пукк's 1967 article
+*О некоторых идеях ускорения процесса интегрирования*, printed p.471,
+references 1 and 9 ([journal scan, PDF p.73](https://www.etera.ee/api/oai2/download/18211.pdf#page=73)),
+cites the two-part 1965 ITEP library and names М. З. Розенфельд's *Интеграл
+особенный* within it. Separately, the [MathNet publication list for
+Адельсон-Вельский](https://www.mathnet.ru/php/person.phtml?option_lang=rus&personid=24726&showmode=simple&wshow=)
+records a **1970 volume 1**. We have citations for these editions, not the library
+volumes themselves; their contents and entry maps must not be assumed identical.
+
+**An actual published Б-61 listing was located.** Following the book's reference
+led to [М. З. Розенфельд, «О совершенно стандартных программах»](https://www.mathnet.ru/rus/dan29167),
+*Доклады АН СССР* 154:5 (1964), pp.1050–1051. The downloaded PDF includes a foldout
+with the **Б-9 quadrature program**. The final page identifies it as part of
+ITEP's Б-61 and describes its ИНФО and П-1 dependencies. It uses Gauss formulas
+with three or five points and supports nested calls without multiple code copies.
+This is authentic published library material, but it is not an identified missing
+cat routine, and quadrature is distinct from trajectory integration. The foldout
+has been inspected; it has not yet been transcribed or run.
+
+**The ИС-22 bibliography is larger than a single booklet.** The bibliography in
+[М. К. Керимов's 2011 memorial](https://www.mathnet.ru/rus/zvmmf8067), printed
+pp.366–367 / PDF pp.4–5, identifies:
+
+- *Интерпретирующая система и элементарные функции*, *Математическая эксплуатация
+  ЭВМ*, issue 2, ВЦ АН СССР, **1966**, pp.1–36.
+- *ИС-22. Программа перевода*, **1969**, issue 2. The title alone does not tell us
+  whether “перевод” refers to numerical conversion.
+- *ИС-22. Решение задач линейной алгебры*, **1969**, issue 3, 8 pp.
+- *ИМ-22. Программа обмена*, **1969**, issue 5, 12 pp. The bibliography really
+  prints **ИМ-22**; we have not silently changed it to ИС-22.
+
+There are unresolved bibliographic discrepancies. The memorial gives 10 pages
+for the 1969 interpreting-system booklet; the [RSL record](https://search.rsl.ru/ru/record/01007104092)
+gives **30**, with holdings **FB Бр 153/184** and **FB Бр 153/186**. Its
+record-specific online-reader section contains no full-text link; generic “read
+online” text elsewhere in the page is not evidence of an accessible scan.
+
+A contemporary [JINR report, P1-10013 (1976)](https://inspirehep.net/files/55a15bb549dec94ddabb02df342bdd57),
+printed p.3 / PDF p.3, documents a BESM-4 experiment using the Dubna assembler and
+an installation-specific ЛИС containing **ИС-2** and additional services. Its
+reference 4, printed p.12 / PDF p.8, dates the elementary-functions work to
+**1965**, whereas the later bibliography says 1966. This gives another acquisition
+trail and demonstrates why the machine name alone cannot identify its software.
+It is not evidence for the cat's installation.
+
+**Input and printing now have more concrete documentation.** A
+[published excerpt from Lyashenko's 1974 book](https://computer-museum.ru/histussr/m20perif.htm),
+attributed to p.166, describes 7-bit card-preparation symbols and a program that
+converts `^А`, `^Т`, and `^З!` into printer control codes `1100100`, `1101000`, and
+`1110000`. The first two take a one-to-three-digit decimal field ending in `!`,
+which the program converts to an octal count. These are two representation layers,
+not processor opcodes. The excerpt does not supply the cat's numeric input cards,
+machine-word packing or a complete character table.
+
+For the **АЦПУ-128-2** printer, [С. С. Оберник's history of НИИсчетмаш](https://www.computer-museum.ru/histussr/niism.htm)
+reports 2.7 mm horizontal pitch and 4.23 mm line spacing. Their ratio is about
+**1.5667**. This is a candidate physical cell ratio, conditional on identifying the
+printer and its line advance; camera and film scaling remain separate questions.
+The [Kazan factory history (2004), printed p.34 / PDF p.35](https://www.computer-museum.ru/books/KZEVM-s.pdf#page=35)
+reports 128 positions, 78 characters per wheel and 400 lines/minute. A period
+[engineering handbook (Лениздат, 1973), printed p.157 / PDF p.158](https://oldpc.su/lib/catalogs/mechITR.pdf#page=158)
+also describes a printer based on this mechanism, attached to a Днепр-2.
+Neither the wheel-character count nor printing speed establishes a Ш glyph,
+character encoding or film frame rate.
+
+The next valuable acquisitions remain the actual Б-61 volumes, the 1967 BESM-4
+instruction, the ИС-22 series and the elementary-functions manual. Publicly
+accessible scans are kept outside this repository; this section publishes links
+and research summaries. No original unpublished cat source or transcription is
+included, and these findings do not change the reconstruction's algorithms.
+
 ## Related mathematics and animation
 
 These are context or comparative work, not additional recovered code for Кошечка.
