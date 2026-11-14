@@ -262,6 +262,28 @@ accessible scans are kept outside this repository; this section publishes links
 and research summaries. No original unpublished cat source or transcription is
 included, and these findings do not change the reconstruction's algorithms.
 
+### Turning source research into reconstruction checks
+
+The current research workflow separates historical documentation, observed
+execution, and film-derived hypotheses. The film review workspace now indexes
+all 2,108 exposures of the archived Études copy; 85 sampled exposures have been visually reviewed, with six ambiguous samples
+retained as uncertain. This does not establish every intervening frame, the
+underlying printed-frame cadence, or a complete printer-cell map. Artist-drawn
+material and lettering can coexist with a printed background.
+
+An offline editor records logical-frame identities, lattice candidates, cell
+uncertainty and visible contacts separately from automatic suggestions. Reused
+exposures must stay in one validation partition; guards use logical-frame time.
+Previously inspected test observations are tracked so that renaming an experiment
+does not make them unseen again. A new geometry fit requires reviewed evidence;
+the current animation remains the baseline while lattice and exposure-reuse
+ambiguities are unresolved.
+
+Focused requests for the offered М-20/М-220 library manuals and the Б-61/ИС-22
+publications have been drafted for the project owner to send. No further historical
+library binary has been authenticated, and no new total film-match claim is made.
+Private source-derived traces, annotations and film images are not included here.
+
 ## Related mathematics and animation
 
 These are context or comparative work, not additional recovered code for Кошечка.
