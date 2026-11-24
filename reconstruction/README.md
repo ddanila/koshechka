@@ -91,7 +91,7 @@ The core tests cover front-elbow direction and source-table initial values, worl
 
 Qualitative comparison against the computed portions of the original film guided the baseline geometry. The [fidelity study](../FIDELITY.md) then registered eight film samples (per-shot scale, translation and leg-phase offset) and fitted the upper body, tail and camera; the remaining error is still large. Artist shots were not used as motion targets. The source film and comparison screenshots are not redistributed.
 
-Open refinements: foot trajectories and contact timing from a clean computed sequence, the limb-length ratios, and the speed schedule. The fitted preset does not constrain any of these.
+Foot trajectories, contact timing, limb-length ratios and the speed schedule are not constrained by the fitted preset. Closing that gap is the primary goal in the [plan](../PLAN.md).
 
 ## Presets and inspection
 

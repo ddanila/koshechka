@@ -61,6 +61,7 @@ The code has constant simulation-state size; this does not mean the Python inter
 
 | Document | Answers |
 | --- | --- |
+| [Plan](PLAN.md) | The current goal, its success measures, and what is waiting or parked. |
 | [Implementation notes](reconstruction/README.md) | How to run the exporter, what comes from the article, and every estimate and numerical repair. |
 | [Paper to code](PAPER-TO-CODE.md) | Which printed rule maps to which function, and whether it is published, interpreted, estimated or repaired. |
 | [Fidelity](FIDELITY.md) | How the `fitted` preset was calibrated against film samples, and how large the remaining mismatch is. |
