@@ -23,12 +23,12 @@ Landmark error is mean Euclidean distance divided by observed back length. IoU m
 
 The candidate passes the predeclared relative gate: at least 10% less held-out landmark error, no overlap decrease, and valid geometry with unchanged contact dynamics. **The absolute errors remain large.** In particular, a constant image-velocity registration cannot explain all observed slowing, film jitter or editing. Body thickness reaches the imposed upper bound. This is a modest calibration of missing shape parameters, not recovery of the historical model or a close frame match. The two aspect interpretations yield different yaw estimates, illustrating ambiguity between camera and transfer geometry.
 
-Reproduce with the private archive path supplied explicitly:
+Reproduce with the private archive path supplied explicitly. Writing to `research/fidelity-results.json` refreshes the committed record; use another path to compare without overwriting it.
 
 ```sh
-python -m pip install -r requirements-research.txt
-python research/experiments/fidelity.py --archive /path/to/cat --output /tmp/fidelity-results.json
-python scripts/check_research.py
+.venv/bin/python -m pip install -r requirements-research.txt
+.venv/bin/python research/experiments/fidelity.py --archive /path/to/cat --output research/fidelity-results.json
+.venv/bin/python scripts/check_research.py
 ```
 
 The experiment writes numeric results only and does not change the production preset. Synthetic tests verify exact registration recovery and ensure held-out measurements cannot affect the fitting parameters. The selected model snapshot is versioned separately; original regression fixtures remain untouched.

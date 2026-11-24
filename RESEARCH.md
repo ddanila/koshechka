@@ -1,6 +1,6 @@
 # Sources and further reading
 
-Research collected 12–14 November 2026. These are external links, not copies of the historical works or a grant of rights to redistribute them. The [full link catalogue](research/catalogue.json) also lists the individual exhibition photographs, publisher preview images, mirrors and unsuccessful retrievals found during the research.
+Research collected from 12 November 2026; sections carry their own dates where they were added later. These are external links, not copies of the historical works or a grant of rights to redistribute them. The [full link catalogue](research/catalogue.json) also lists the individual exhibition photographs, publisher preview images, mirrors and unsuccessful retrievals found during the research.
 
 ## Start here
 
@@ -77,16 +77,11 @@ An indexed December 2019 *Heide-Kurier* book-presentation lead was also found, b
 
 ## Historical programming and libraries
 
-These public sources help explain the programming environment around M-20 and
-BESM-4. They do not establish which library version was used for the cat. The
-summaries below come from published books, papers and catalogues; they contain
-no transcription or analysis of the unpublished original cat source code.
+These public sources help explain the programming environment around M-20 and BESM-4. They do not establish which library version was used for the cat. The summaries below come from published books, papers and catalogues; they contain no transcription or analysis of the unpublished original cat source code.
 
 ### Kronrod and the Б-61 library
 
-**А. С. Кронрод, *Беседы о программировании*, 2nd stereotyped edition, Едиториал
-УРСС, 2004.** [Public scan](https://is.ifmo.ru/books/cronrod.pdf). Page numbers below
-are printed folios; in these sections the PDF page is one less.
+**А. С. Кронрод, *Беседы о программировании*, 2nd stereotyped edition, Едиториал УРСС, 2004.** [Public scan](https://is.ifmo.ru/books/cronrod.pdf). Page numbers below are printed folios; in these sections the PDF page is one less.
 
 | Printed pages | What the book documents |
 |---|---|
@@ -95,9 +90,7 @@ are printed folios; in these sections the PDF page is one less.
 | 229, reference 1 | **«Библиотека Б-61. Ч. I. Описание и инструкции. Ч. II. Программы». ИТЭФ, 1965.** A precise lead for library documentation and program listings. |
 | 236–239 | M-20 instruction summary: 45-bit words, three 12-bit addresses and address-register modification. This is an M-20 specification, not a complete BESM-4 manual. |
 
-The two-part **1965 Б-61 preprint** is a priority acquisition target. We have its
-bibliographic reference, not the two parts themselves. A fixed header range alone
-does not identify individual routines or establish use by the cat program.
+The two-part **1965 Б-61 preprint** is a priority acquisition target. We have its bibliographic reference, not the two parts themselves. A fixed header range alone does not identify individual routines or establish use by the cat program.
 
 ### ИС-22 and programming manuals
 
@@ -107,59 +100,26 @@ does not identify individual routines or establish use by the cat program.
 | М. Р. Шура-Бура, *Интерпретирующая система ИС-22 для М-220 и БЭСМ-4*. Moscow, 1969, 30 pp.; *Стандартные программы ИС-22*, issue 001. | [Russian State Library record](https://search.rsl.ru/ru/record/01007104092). A separate publication from the 1967 instruction; no full text obtained. |
 | В. Ф. Ляшенко, *Программирование для ЦВМ с системой команд типа М-20*. 2nd revised and expanded edition, Советское радио, 1974, 414 pp. | [Russian State Library record](https://search.rsl.ru/ru/record/01007162274). A lead for programming conventions across the M-20 family; no complete scan obtained. |
 
-The [2013 IPM history](https://keldysh.ru/papers/2013/prep2013_29.pdf#page=9), printed
-p.8 / PDF p.9, describes continuity from ИС-2 to ИС-22 as work moved from M-20 to
-BESM-4. This establishes historical context, not interchangeability of library
-binaries. Б-61 and ИС-22 remain separate research leads.
+The [2013 IPM history](https://keldysh.ru/papers/2013/prep2013_29.pdf#page=9), printed p.8 / PDF p.9, describes continuity from ИС-2 to ИС-22 as work moved from M-20 to BESM-4. This establishes historical context, not interchangeability of library binaries. Б-61 and ИС-22 remain separate research leads.
 
 ### Two 1964 papers: notation and address formation
 
-- **А. Л. Брудно, «Программирование в содержательных обозначениях».** *Доклады АН
-  СССР* 154:2 (1964), pp.279–282. [Record and full text](https://www.mathnet.ru/rus/dan29026).
-  Explains semantic notation alongside encoded instructions and a memory
-  dictionary. Its example machine is hypothetical; the example opcodes are not
-  a BESM-4 instruction table.
-- **Г. М. Адельсон-Вельский, А. Л. Брудно, А. С. Кронрод, П. Т. Резниковский,
-  «О системе команд для трехадресной машины без регистра адреса».** *Доклады АН
-  СССР* 154:3 (1964), pp.545–548. [Record and full text](https://www.mathnet.ru/rus/dan29078).
-  Proposes a 43-bit machine whose FA operation uses the **third** address field
-  of index words. This differs from Kronrod's middle-field convention. The shared
-  operation name does not make these machine designs equivalent.
+- **А. Л. Брудно, «Программирование в содержательных обозначениях».** *Доклады АН СССР* 154:2 (1964), pp.279–282. [Record and full text](https://www.mathnet.ru/rus/dan29026). Explains semantic notation alongside encoded instructions and a memory dictionary. Its example machine is hypothetical; the example opcodes are not a BESM-4 instruction table.
+- **Г. М. Адельсон-Вельский, А. Л. Брудно, А. С. Кронрод, П. Т. Резниковский, «О системе команд для трехадресной машины без регистра адреса».** *Доклады АН СССР* 154:3 (1964), pp.545–548. [Record and full text](https://www.mathnet.ru/rus/dan29078). Proposes a 43-bit machine whose FA operation uses the **third** address field of index words. This differs from Kronrod's middle-field convention. The shared operation name does not make these machine designs equivalent.
 
 ### Hardware documentation and emulation
 
-[**БЭСМ-4, часть III: перечень и описание элементов блоков**](https://retro-computer.ru/Lists/DocumentList/DispForm.aspx?ID=965)
-is a hardware scan with 74 PDF spreads corresponding to a catalogue description
-of 147 printed pages. The printer-driver and drum-write sections describe
-electronic circuitry. They do not supply a character-code table, a verified Ш
-glyph, or a library interface. Component pulse frequencies must not be treated
-as film frame rates.
+[**БЭСМ-4, часть III: перечень и описание элементов блоков**](https://retro-computer.ru/Lists/DocumentList/DispForm.aspx?ID=965) is a hardware scan with 74 PDF spreads corresponding to a catalogue description of 147 printed pages. The printer-driver and drum-write sections describe electronic circuitry. They do not supply a character-code table, a verified Ш glyph, or a library interface. Component pulse frequencies must not be treated as film frame rates.
 
-The public [**rcgoff/m20 emulator**](https://github.com/rcgoff/m20) is a fork of
-Dmitry Stefankov's M-20 emulator. It is a useful starting point for studying that
-machine; adapting it to a particular BESM-4 installation requires evidence for
-the differences. It is an external project with its own licensing, not part of
-this repository's MIT implementation.
+The public [**rcgoff/m20 emulator**](https://github.com/rcgoff/m20) is a fork of Dmitry Stefankov's M-20 emulator. It is a useful starting point for studying that machine; adapting it to a particular BESM-4 installation requires evidence for the differences. It is an external project with its own licensing, not part of this repository's MIT implementation.
 
-The most useful further finds would be the Б-61 volumes, the 1967 ИС-22
-instruction, and documented library entry tables with argument, result and
-return conventions. These public findings do not recover the numerical cat shape
-lists omitted from the 1974 animation paper.
+The most useful further finds would be the Б-61 volumes, the 1967 ИС-22 instruction, and documented library entry tables with argument, result and return conventions. These public findings do not recover the numerical cat shape lists omitted from the 1974 animation paper.
 
 ### Further publication research (14 November 2026)
 
-**A particularly useful programming book:** Р. С. Гутер, В. Л. Арлазаров,
-А. В. Усков, *Практика программирования*, Наука, **1965**.
-The [public scan directory](https://publ.lib.ru/ARCHIVES/G/GUTER_Rafail_Samoylovich_%28matematik%29/_Guter_R.S..html)
-lists PDF and DjVu copies. [М. И. Кабанов's contemporary review](https://www.mathnet.ru/rus/zvmmf9151)
-(*ЖВММФ* 6:4, 1966, pp.782–784) confirms that the book covers semantic notation,
-subprogram organization, a concrete standard library, relocation and drum-transfer
-services. The review year is **1966**, distinct from the book's publication year.
-It is a promising source for programming conventions; it does not establish the
-cat's library version.
+**A particularly useful programming book:** Р. С. Гутер, В. Л. Арлазаров, А. В. Усков, *Практика программирования*, Наука, **1965**. The [public scan directory](https://publ.lib.ru/ARCHIVES/G/GUTER_Rafail_Samoylovich_%28matematik%29/_Guter_R.S..html) lists PDF and DjVu copies. [М. И. Кабанов's contemporary review](https://www.mathnet.ru/rus/zvmmf9151) (*ЖВММФ* 6:4, 1966, pp.782–784) confirms that the book covers semantic notation, subprogram organization, a concrete standard library, relocation and drum-transfer services. The review year is **1966**, distinct from the book's publication year. It is a promising source for programming conventions; it does not establish the cat's library version.
 
-We obtained PDF and DjVu copies and checked the PDF title page and library sections.
-In this copy, the printed folio is one less than the PDF page for these sections:
+We obtained PDF and DjVu copies and checked the PDF title page and library sections. In this copy, the printed folio is one less than the PDF page for these sections:
 
 | Printed pages | Verified content |
 |---|---|
@@ -169,120 +129,40 @@ In this copy, the printed folio is one less than the PDF page for these sections
 | 137 | Runge–Kutta preparation/first-step and subsequent-step interfaces, working arrays and a derivative callback. No tableau or order is specified here. |
 | 168 | Stable entry headers pointing to movable routine bodies; the addresses are examples. |
 
-These are valuable interface descriptions, but the illustrative machine assumptions
-and example addresses must be checked before applying them to BESM-4. In particular,
-the Runge–Kutta interface does not recover the numerical algorithm used by the cat.
+These are valuable interface descriptions, but the illustrative machine assumptions and example addresses must be checked before applying them to BESM-4. In particular, the Runge–Kutta interface does not recover the numerical algorithm used by the cat.
 
-**Б-61 has an independent contemporary citation.** Р. Пукк's 1967 article
-*О некоторых идеях ускорения процесса интегрирования*, printed p.471,
-references 1 and 9 ([journal scan, PDF p.73](https://www.etera.ee/api/oai2/download/18211.pdf#page=73)),
-cites the two-part 1965 ITEP library and names М. З. Розенфельд's *Интеграл
-особенный* within it. Separately, the [MathNet publication list for
-Адельсон-Вельский](https://www.mathnet.ru/php/person.phtml?option_lang=rus&personid=24726&showmode=simple&wshow=)
-records a **1970 volume 1**. We have citations for these editions, not the library
-volumes themselves; their contents and entry maps must not be assumed identical.
+**Б-61 has an independent contemporary citation.** Р. Пукк's 1967 article *О некоторых идеях ускорения процесса интегрирования*, printed p.471, references 1 and 9 ([journal scan, PDF p.73](https://www.etera.ee/api/oai2/download/18211.pdf#page=73)), cites the two-part 1965 ITEP library and names М. З. Розенфельд's *Интеграл особенный* within it. Separately, the [MathNet publication list for Адельсон-Вельский](https://www.mathnet.ru/php/person.phtml?option_lang=rus&personid=24726&showmode=simple&wshow=) records a **1970 volume 1**. We have citations for these editions, not the library volumes themselves; their contents and entry maps must not be assumed identical.
 
-**An actual published Б-61 listing was located.** Following the book's reference
-led to [М. З. Розенфельд, «О совершенно стандартных программах»](https://www.mathnet.ru/rus/dan29167),
-*Доклады АН СССР* 154:5 (1964), pp.1050–1051. The downloaded PDF includes a foldout
-with the **Б-9 quadrature program**. The final page identifies it as part of
-ITEP's Б-61 and describes its ИНФО and П-1 dependencies. It uses Gauss formulas
-with three or five points and supports nested calls without multiple code copies.
-This is authentic published library material, but it is not an identified missing
-cat routine, and quadrature is distinct from trajectory integration. The foldout
-has now been transcribed and exercised in a separate M-20 execution experiment.
+**An actual published Б-61 listing was located.** Following the book's reference led to [М. З. Розенфельд, «О совершенно стандартных программах»](https://www.mathnet.ru/rus/dan29167), *Доклады АН СССР* 154:5 (1964), pp.1050–1051. The downloaded PDF includes a foldout with the **Б-9 quadrature program**. The final page identifies it as part of ITEP's Б-61 and describes its ИНФО and П-1 dependencies. It uses Gauss formulas with three or five points and supports nested calls without multiple code copies. This is authentic published library material, but it is not an identified missing cat routine, and quadrature is distinct from trajectory integration. The foldout has been transcribed and exercised in a separate M-20 execution experiment.
 
-The reviewed listing passes analytic polynomial integrals through degree 5 with
-three-point Gauss quadrature and degree 9 with five-point quadrature. Repeated
-calls and a nested integral also pass, using the same code in memory. The original
-quadrature words execute as machine instructions; the absent low-memory support
-is explicitly reconstructed from the paper's interface descriptions and inferred
-conventions. ИНФО implements the documented four-word copy. The limited П-1
-substitute tests an explicit request and a two-cell logical output buffer; it does
-not reproduce historical console polling or printer encoding. Accuracy-controlled
-quadrature remains unvalidated.
+The reviewed listing passes analytic polynomial integrals through degree 5 with three-point Gauss quadrature and degree 9 with five-point quadrature. Repeated calls and a nested integral also pass, using the same code in memory. The original quadrature words execute as machine instructions; the absent low-memory support is explicitly reconstructed from the paper's interface descriptions and inferred conventions. ИНФО implements the documented four-word copy. The limited П-1 substitute tests an explicit request and a two-cell logical output buffer; it does not reproduce historical console polling or printer encoding. Accuracy-controlled quadrature remains unvalidated.
 
-This experiment also exposed a transcription hazard: a low-resolution/OCR reading
-of one operation as `075` failed the five-point constant integral. A larger scan
-crop resolves the digit as `076`, matching the conditional-copy notation. The
-rejected reading and its failing result are retained in the private audit. Passing
-numerical tests supports the reviewed transcription; it does not identify the
-cat's missing routines or authenticate a complete Б-61 installation. No library
-listing or scan is included in this repository.
+This experiment also exposed a transcription hazard: a low-resolution/OCR reading of one operation as `075` failed the five-point constant integral. A larger scan crop resolves the digit as `076`, matching the conditional-copy notation. The rejected reading and its failing result are retained in the private audit. Passing numerical tests supports the reviewed transcription; it does not identify the cat's missing routines or authenticate a complete Б-61 installation. No library listing or scan is included in this repository.
 
-**The ИС-22 bibliography is larger than a single booklet.** The bibliography in
-[М. К. Керимов's 2011 memorial](https://www.mathnet.ru/rus/zvmmf8067), printed
-pp.366–367 / PDF pp.4–5, identifies:
+**The ИС-22 bibliography is larger than a single booklet.** The bibliography in [М. К. Керимов's 2011 memorial](https://www.mathnet.ru/rus/zvmmf8067), printed pp.366–367 / PDF pp.4–5, identifies:
 
-- *Интерпретирующая система и элементарные функции*, *Математическая эксплуатация
-  ЭВМ*, issue 2, ВЦ АН СССР, **1966**, pp.1–36.
-- *ИС-22. Программа перевода*, **1969**, issue 2. The title alone does not tell us
-  whether “перевод” refers to numerical conversion.
+- *Интерпретирующая система и элементарные функции*, *Математическая эксплуатация ЭВМ*, issue 2, ВЦ АН СССР, **1966**, pp.1–36.
+- *ИС-22. Программа перевода*, **1969**, issue 2. The title alone does not tell us whether “перевод” refers to numerical conversion.
 - *ИС-22. Решение задач линейной алгебры*, **1969**, issue 3, 8 pp.
-- *ИМ-22. Программа обмена*, **1969**, issue 5, 12 pp. The bibliography really
-  prints **ИМ-22**; we have not silently changed it to ИС-22.
+- *ИМ-22. Программа обмена*, **1969**, issue 5, 12 pp. The bibliography really prints **ИМ-22**; we have not silently changed it to ИС-22.
 
-There are unresolved bibliographic discrepancies. The memorial gives 10 pages
-for the 1969 interpreting-system booklet; the [RSL record](https://search.rsl.ru/ru/record/01007104092)
-gives **30**, with holdings **FB Бр 153/184** and **FB Бр 153/186**. Its
-record-specific online-reader section contains no full-text link; generic “read
-online” text elsewhere in the page is not evidence of an accessible scan.
+There are unresolved bibliographic discrepancies. The memorial gives 10 pages for the 1969 interpreting-system booklet; the [RSL record](https://search.rsl.ru/ru/record/01007104092) gives **30**, with holdings **FB Бр 153/184** and **FB Бр 153/186**. Its record-specific online-reader section contains no full-text link; generic “read online” text elsewhere in the page is not evidence of an accessible scan.
 
-A contemporary [JINR report, P1-10013 (1976)](https://inspirehep.net/files/55a15bb549dec94ddabb02df342bdd57),
-printed p.3 / PDF p.3, documents a BESM-4 experiment using the Dubna assembler and
-an installation-specific ЛИС containing **ИС-2** and additional services. Its
-reference 4, printed p.12 / PDF p.8, dates the elementary-functions work to
-**1965**, whereas the later bibliography says 1966. This gives another acquisition
-trail and demonstrates why the machine name alone cannot identify its software.
-It is not evidence for the cat's installation.
+A contemporary [JINR report, P1-10013 (1976)](https://inspirehep.net/files/55a15bb549dec94ddabb02df342bdd57), printed p.3 / PDF p.3, documents a BESM-4 experiment using the Dubna assembler and an installation-specific ЛИС containing **ИС-2** and additional services. Its reference 4, printed p.12 / PDF p.8, dates the elementary-functions work to **1965**, whereas the later bibliography says 1966. This gives another acquisition trail and demonstrates why the machine name alone cannot identify its software. It is not evidence for the cat's installation.
 
-**Input and printing now have more concrete documentation.** A
-[published excerpt from Lyashenko's 1974 book](https://computer-museum.ru/histussr/m20perif.htm),
-attributed to p.166, describes 7-bit card-preparation symbols and a program that
-converts `^А`, `^Т`, and `^З!` into printer control codes `1100100`, `1101000`, and
-`1110000`. The first two take a one-to-three-digit decimal field ending in `!`,
-which the program converts to an octal count. These are two representation layers,
-not processor opcodes. The excerpt does not supply the cat's numeric input cards,
-machine-word packing or a complete character table.
+**Input and printing have more concrete documentation.** A [published excerpt from Lyashenko's 1974 book](https://computer-museum.ru/histussr/m20perif.htm), attributed to p.166, describes 7-bit card-preparation symbols and a program that converts `^А`, `^Т`, and `^З!` into printer control codes `1100100`, `1101000`, and `1110000`. The first two take a one-to-three-digit decimal field ending in `!`, which the program converts to an octal count. These are two representation layers, not processor opcodes. The excerpt does not supply the cat's numeric input cards, machine-word packing or a complete character table.
 
-For the **АЦПУ-128-2** printer, [С. С. Оберник's history of НИИсчетмаш](https://www.computer-museum.ru/histussr/niism.htm)
-reports 2.7 mm horizontal pitch and 4.23 mm line spacing. Their ratio is about
-**1.5667**. This is a candidate physical cell ratio, conditional on identifying the
-printer and its line advance; camera and film scaling remain separate questions.
-The [Kazan factory history (2004), printed p.34 / PDF p.35](https://www.computer-museum.ru/books/KZEVM-s.pdf#page=35)
-reports 128 positions, 78 characters per wheel and 400 lines/minute. A period
-[engineering handbook (Лениздат, 1973), printed p.157 / PDF p.158](https://oldpc.su/lib/catalogs/mechITR.pdf#page=158)
-also describes a printer based on this mechanism, attached to a Днепр-2.
-Neither the wheel-character count nor printing speed establishes a Ш glyph,
-character encoding or film frame rate.
+For the **АЦПУ-128-2** printer, [С. С. Оберник's history of НИИсчетмаш](https://www.computer-museum.ru/histussr/niism.htm) reports 2.7 mm horizontal pitch and 4.23 mm line spacing. Their ratio is about **1.5667**. This is a candidate physical cell ratio, conditional on identifying the printer and its line advance; camera and film scaling remain separate questions. The [Kazan factory history (2004), printed p.34 / PDF p.35](https://www.computer-museum.ru/books/KZEVM-s.pdf#page=35) reports 128 positions, 78 characters per wheel and 400 lines/minute. A period [engineering handbook (Лениздат, 1973), printed p.157 / PDF p.158](https://oldpc.su/lib/catalogs/mechITR.pdf#page=158) also describes a printer based on this mechanism, attached to a Днепр-2. Neither the wheel-character count nor printing speed establishes a Ш glyph, character encoding or film frame rate.
 
-The next valuable acquisitions remain the actual Б-61 volumes, the 1967 BESM-4
-instruction, the ИС-22 series and the elementary-functions manual. Publicly
-accessible scans are kept outside this repository; this section publishes links
-and research summaries. No original unpublished cat source or transcription is
-included, and these findings do not change the reconstruction's algorithms.
+The next valuable acquisitions remain the actual Б-61 volumes, the 1967 BESM-4 instruction, the ИС-22 series and the elementary-functions manual. Publicly accessible scans are kept outside this repository; this section publishes links and research summaries. No original unpublished cat source or transcription is included, and these findings do not change the reconstruction's algorithms.
 
-### Turning source research into reconstruction checks
+### Turning source research into reconstruction checks (November 2026)
 
-The current research workflow separates historical documentation, observed
-execution, and film-derived hypotheses. The film review workspace now indexes
-all 2,108 exposures of the archived Études copy; 85 sampled exposures have been visually reviewed, with six ambiguous samples
-retained as uncertain. This does not establish every intervening frame, the
-underlying printed-frame cadence, or a complete printer-cell map. Artist-drawn
-material and lettering can coexist with a printed background.
+The current research workflow separates historical documentation, observed execution, and film-derived hypotheses. The private film review workspace indexes all 2,108 exposures of the archived Études copy; 85 sampled exposures have been visually reviewed, with six ambiguous samples retained as uncertain. This does not establish every intervening frame, the underlying printed-frame cadence, or a complete printer-cell map. Artist-drawn material and lettering can coexist with a printed background.
 
-An offline editor records logical-frame identities, lattice candidates, cell
-uncertainty and visible contacts separately from automatic suggestions. Reused
-exposures must stay in one validation partition; guards use logical-frame time.
-Previously inspected test observations are tracked so that renaming an experiment
-does not make them unseen again. A new geometry fit requires reviewed evidence;
-the current animation remains the baseline while lattice and exposure-reuse
-ambiguities are unresolved.
+An offline editor records logical-frame identities, lattice candidates, cell uncertainty and visible contacts separately from automatic suggestions. Reused exposures must stay in one validation partition; guards use logical-frame time. Previously inspected test observations are tracked so that renaming an experiment does not make them unseen again. A new geometry fit requires reviewed evidence; the current animation remains the baseline while lattice and exposure-reuse ambiguities are unresolved.
 
-Focused requests for the offered М-20/М-220 library manuals and the Б-61/ИС-22
-publications have been drafted for the project owner to send. No further historical
-library binary has been authenticated, and no new total film-match claim is made.
-Private source-derived traces, annotations and film images are not included here.
+The М-20/М-220 library manuals and the Б-61/ИС-22 publications remain acquisition targets. No further historical library binary has been authenticated, and no new total film-match claim is made. Private source-derived traces, annotations and film images are not included here.
 
 ## Related mathematics and animation
 

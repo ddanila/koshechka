@@ -1,8 +1,8 @@
-# Кошечка: first runnable reconstruction
+# Кошечка: implementation notes
 
 Open [the interactive viewer](index.html), [tracking-camera MP4](output/kitty.mp4), [fixed-camera MP4](output/kitty-travel.mp4), or [animated GIF](output/kitty.gif). The viewer works directly from a local file, with no server or network dependencies. It supports scrubbing, playback speed, view angle, camera tracking, two character-print polarities, silhouettes and wireframes. The original film is linked at its source, not distributed here.
 
-This is a **source-based approximation**, not recovered original software or a frame-exact replica. It implements the published dynamics and shape-construction method. It does not reproduce the handmade grimaces, arched back, titles or montage. The geometry is an initial visual estimate, not an optimized fit.
+This is a **source-based approximation**, not recovered original software or a frame-exact replica. It implements the published dynamics and shape-construction method. It does not reproduce the handmade grimaces, arched back, titles or montage. The geometry is estimated: the default `fitted` preset calibrates only the upper body, tail and camera against a few film samples (see [fidelity](../FIDELITY.md)).
 
 ## Small implementation
 
@@ -10,13 +10,11 @@ Start with [minimal.py](minimal.py): a small loop that advances four legs, const
 
 The motion equations, phase correction, RK4 step and leg-angle solver are together in [kitty/core.py](kitty/core.py) with named branches and documented numerical choices. Published constants and initial states are written directly beside the algorithm and checked against the archived tables. [geometry.py](kitty/geometry.py) supplies relative transforms, tapered solids and the estimated model. The large browser animation file is an optional export, not simulation state.
 
-```sh
-.venv/bin/python reconstruction/minimal.py | ffmpeg -y -f rawvideo -pixel_format rgb24 -video_size 960x600 -framerate 24 -i - -pix_fmt yuv420p kitty.mp4
-```
+The [project README](../README.md#try-it) shows how to pipe it into FFmpeg.
 
-The streaming path uses constant memory with respect to movie duration: four current leg states, one small geometry tree, and image buffers. The Python interpreter, Pillow and enlarged RGB preview are modern conveniences; this is not a claim that their runtime fits BESM-4 RAM. A packed printer bitmap and native implementation are estimated in the [memory accounting](../MEMORY.md). The history collector in `kitty/experiment.py` and the viewer/export machinery are optional tools around this core.
+The streaming path uses constant memory with respect to movie duration: four current leg states, one small geometry tree, and image buffers. The Python interpreter, Pillow and enlarged RGB preview are modern conveniences; this is not a claim that their runtime fits BESM-4 RAM. A packed printer bitmap and native implementation are estimated in the [memory accounting](../MEMORY-BUDGET.md). The history collector in `kitty/experiment.py` and the viewer/export machinery are optional tools around this core.
 
-**Front-leg correction:** the previous solver chose the mirror-image front-leg bend. Both roots satisfy beta = 0.8 gamma and reach the same endpoint, so the old endpoint tests could not detect it. The corrected negative-gamma root puts the elbow behind the shoulder-to-foot line, matching the computed film frames. The rear-leg branch, foot trajectory and published angle ratios are unchanged. A direction-specific regression test now checks this.
+**Front-elbow direction:** for each leg, two mirror-image bends satisfy beta = c·gamma and reach the same endpoint, so endpoint tests alone cannot tell them apart. The solver takes the negative-gamma root, which puts the front elbow behind the shoulder-to-foot line as in the computed film frames. A direction-specific regression test checks this.
 
 ## Run the full export
 
@@ -31,10 +29,9 @@ This produces 385 poses over 16 simulation seconds at 24 fps, two MP4s, a GIF, a
 ```sh
 # A separate experiment: continuous walking, no head turn, no video encoding.
 .venv/bin/python reconstruction/run.py --cruise --no-head-turn --duration 12 --no-video --output /tmp/kitty-cruise
-
-# Reproduce the numerical checks.
-PYTHONPATH=reconstruction .venv/bin/python -m unittest discover -s reconstruction/tests -v
 ```
+
+The test suite is described under [Check it](../README.md#check-it) in the project README.
 
 `--dt` changes integration step size; `--no-coupling` disables phase correction. `--model` reads a JSON file based on [model.json](output/model.json). This exposes the major dimensions; the head details are in `geometry.py`. Shoulder height must remain at the published 0.75; the exporter rejects a conflicting value. Files written to an alternate output directory do not automatically replace the viewer's `output/animation.js`.
 
@@ -82,7 +79,7 @@ reduces the endpoint constraint to `|Q| = shoulder-to-endpoint distance`. A brac
 
 ## Checks and comparison
 
-Eleven tests pass, including front-elbow direction and source-table initial values: world-stationary stance, final rest, timestep convergence, endpoint/joint constraints, right-handed coordinate frames including vertical axes, nested scale/translation, landing boundary conditions, wrapped phase fitting and selectable stopping sign.
+The core tests cover front-elbow direction and source-table initial values, world-stationary stance, final rest, timestep convergence, endpoint/joint constraints, right-handed coordinate frames including vertical axes, nested scale/translation, landing boundary conditions, wrapped phase fitting and selectable stopping sign.
 
 - Largest endpoint reconstruction residual: less than **1e−10** model units.
 - Largest difference in sampled endpoint position when halving dt: **0.00130** model units.
@@ -92,9 +89,9 @@ Eleven tests pass, including front-elbow direction and source-table initial valu
 
 [Numerical report](output/verification.json) · [controller events](output/diagnostics.json) · [contact sheet](output/contact-sheet.jpg).
 
-Qualitative comparison against the computed portions of the original film guided the estimated geometry. No phase-aligned or scale-registered match is claimed. Artist shots were not used as motion targets. The source film and comparison screenshots are not redistributed.
+Qualitative comparison against the computed portions of the original film guided the baseline geometry. The [fidelity study](../FIDELITY.md) then registered eight film samples (per-shot scale, translation and leg-phase offset) and fitted the upper body, tail and camera; the remaining error is still large. Artist shots were not used as motion targets. The source film and comparison screenshots are not redistributed.
 
-Next useful refinement is measuring silhouettes and foot trajectories over a clean computed sequence, then fitting the omitted shape lists, camera and speed schedule. The current code and traces provide an inspectable starting point for that work.
+Open refinements: foot trajectories and contact timing from a clean computed sequence, the limb-length ratios, and the speed schedule. The fitted preset does not constrain any of these.
 
 ## Presets and inspection
 

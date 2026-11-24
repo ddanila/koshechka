@@ -26,6 +26,8 @@ These maxima span x, y, dx and dy; they are not purely position errors. The [ful
 
 The production fit is retained: it agrees with the natural chord-distance reading and prescribed gait order. The alternatives demonstrate sensitivity, not evidence that the original program used a different method.
 
+This regenerates the committed report:
+
 ```sh
-python research/experiments/phase.py > /tmp/phase-results.json
+.venv/bin/python research/experiments/phase.py > research/phase-results.json
 ```

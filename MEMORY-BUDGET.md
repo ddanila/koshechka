@@ -1,6 +1,6 @@
 # A reproducible data-memory estimate
 
-Run `python3 scripts/memory_budget.py` from the checkout. It counts the current geometry (36 nodes, 29 leaves, depth 4) and prints every assumption as JSON.
+Run `.venv/bin/python scripts/memory_budget.py` from the checkout. It counts the current geometry (36 nodes, 29 leaves, depth 4) and prints every assumption as JSON.
 
 This estimates a proposed compact native implementation with one primitive projected at a time. It is not measured Python memory, a recovered historical layout, or proof that a complete executable fits BESM-4.
 
@@ -27,4 +27,4 @@ Python, Pillow and browser objects, stored frame histories and diagnostics are e
 
 ## The implemented C port
 
-The estimate above remains a hypothetical packed layout. The new [native implementation](native/README.md) has measured storage and compiler stack reports in [this platform-specific record](research/native-memory-macos-arm64.json). It stores full rotations and both model presets, so it is larger than the hypothetical layout. The report separates read-only constants, mutable state, stack bounds and executable sections, and excludes library/system overhead.
+The estimate above remains a hypothetical packed layout. The [native implementation](native/README.md) has measured storage and compiler stack reports in [this platform-specific record](research/native-memory-macos-arm64.json). It stores full rotations and both model presets, so it is larger than the hypothetical layout. The report separates read-only constants, mutable state, stack bounds and executable sections, and excludes library/system overhead.

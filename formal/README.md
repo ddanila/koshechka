@@ -7,7 +7,7 @@ cd formal
 lake exe cache get
 lake build
 cd ..
-python scripts/check_formal.py
+.venv/bin/python scripts/check_formal.py
 ```
 
 On a newer macOS where the old cache executable cannot launch, use `lake env lean --run .lake/packages/mathlib/Cache/Main.lean get` from this directory. The proof checker itself runs normally.

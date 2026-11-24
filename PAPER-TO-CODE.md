@@ -23,7 +23,7 @@ All six pairs are implemented in [`derivative`](reconstruction/kitty/core.py). N
 | 5 — Front reversal | −M₁x / abs(l−ρ) | K₁x′ | Published; denominator guard is a repair |
 | 6 — Landing | K₄y′ + v′ | 6K₆(t−K₅) + 2K₇ | Published |
 
-The default clip exercises 1, 2, 3, 5 and 6. Branch 4 is tested independently. In repaired selection, epsilon is zero and the `dx <= 0` branch wins at exactly zero; this also means the printed zero-band stop path is not selected. That existing behavior is retained, not silently changed by the readability refactor.
+The default clip exercises 1, 2, 3, 5 and 6. Branch 4 is tested independently. In repaired selection, epsilon is zero and the `dx <= 0` branch wins at exactly zero; this also means the printed zero-band stop path is not selected. This behavior is deliberate and covered by the regression fixtures.
 
 ## Decisions and coefficient updates — table 2, p.206
 

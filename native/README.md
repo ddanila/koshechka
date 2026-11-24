@@ -8,9 +8,9 @@ native/build/kitty | ffmpeg -f image2pipe -framerate 24 -i - -pix_fmt yuv420p ki
 native/build/kitty --preset baseline --trace > trajectory.csv
 native/build/kitty --events > events.csv
 native/build/kitty --help
-python scripts/native_presets.py --check
-python scripts/check_native.py
-python scripts/native_memory.py
+.venv/bin/python scripts/native_presets.py --check
+.venv/bin/python scripts/check_native.py
+.venv/bin/python scripts/native_memory.py
 ```
 
 Default output is concatenated binary PBM images, 960×600, using a 160×100 occupancy bitmap and a 120-byte output row. `--ink` reverses which region carries Ш. `--mask` emits the raw 160×100 occupancy mask; in that diagnostic encoding, set occupancy is a black PBM pixel. `--vertices` emits transformed solid vertices. `--trace` and `--events` are separate CSV modes. Events use integer IDs: 1 rear reversal, 2 front reversal, 3 touchdown; leg order is right rear, right front, left rear, left front. Viewer lift-off observations are an exporter diagnostic, not an additional controller event.
@@ -27,4 +27,4 @@ The rasterizer includes pixel centers on or inside the projected convex hull. Pi
 
 The [Clang arm64 report](../research/native-memory-macos-arm64.json) records 544 bytes for four legs, 5,760 bytes for mutable nodes, 2,000 bytes for the occupancy bitmap, and a 120-byte output row. Two compiled model snapshots occupy another 11,520 bytes of constants. A conservative sum of application stack frames, counting the sole recursive traversal at depth four, is 11,888 bytes; this already includes the leg/node arrays. The executable file is 51,912 bytes on that build, including platform metadata; sizes vary with compiler and platform.
 
-The geometry stores full double-precision rotations rather than the paper's packed angles. This is deliberately simple and inspectable, not an optimized historical footprint. libc/libm, loader, I/O buffering and system memory are excluded from application accounting. See the separate [45-bit memory estimate](../MEMORY.md); neither modern executable size nor Python RSS demonstrates BESM-4 fit.
+The geometry stores full double-precision rotations rather than the paper's packed angles. This is deliberately simple and inspectable, not an optimized historical footprint. libc/libm, loader, I/O buffering and system memory are excluded from application accounting. See the separate [45-bit memory estimate](../MEMORY-BUDGET.md); neither modern executable size nor Python RSS demonstrates BESM-4 fit.

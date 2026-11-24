@@ -16,6 +16,8 @@ The motion and leg solver fit in [one small Python file](reconstruction/kitty/co
 
 Clone the repository and open [reconstruction/index.html](reconstruction/index.html) in a browser. No server is required: the generated demonstration is bundled. Scrub through the motion, rotate the view, switch between Ш printing, silhouette and wireframe, or turn off camera tracking to see the cat cross the frame.
 
+In the motion inspector, step by frame with the arrow buttons (or left/right keys when no control is focused), select a leg, or select an event marker. Marker times come from the accepted integration steps; lift-off is observed at the accepted endpoint.
+
 You can also download the [close-up MP4](reconstruction/output/kitty.mp4) or [fixed-camera MP4](reconstruction/output/kitty-travel.mp4).
 
 To generate it yourself, use Python 3.9+ and Pillow. Install FFmpeg separately for MP4 output.
@@ -44,8 +46,6 @@ The default **fitted** preset improves the estimated upper body and tail against
 - [Lean proofs](formal/README.md): landing boundary conditions and the real-number cross minimizer.
 - [Compact C implementation](native/README.md): complete streaming animation, Python parity checks and measured storage.
 
-In the motion inspector, step by frame with the arrow buttons (or left/right keys when no control is focused), select a leg, or select an event marker. Marker times come from the accepted integration steps; lift-off is observed at the accepted endpoint.
-
 ## What is reconstructed?
 
 - Six leg-acceleration branches, remembered coefficients and four-leg phase coupling.
@@ -55,9 +55,21 @@ In the motion inspector, step by frame with the arrow buttons (or left/right key
 
 The original paper omits the numerical shape lists and complete speed/head-turn schedules. Those are estimated here. Small-step integration also needs explicit handling of sign changes and touchdown; these departures from a literal transcription are documented. The film's handmade grimaces and arched-back scenes are not reproduced.
 
-The [paper-to-code guide](PAPER-TO-CODE.md) maps published rules to functions and explains the remaining uncertainties. The [memory budget](MEMORY.md) estimates compact data storage separately from the Python runtime.
+The code has constant simulation-state size; this does not mean the Python interpreter or modern image buffers would fit the historical machine.
 
-Read the [implementation notes](reconstruction/README.md) for equations, assumptions and limitations. The code has constant simulation-state size; this does not mean the Python interpreter or modern image buffers would fit the historical machine.
+## Documentation
+
+| Document | Answers |
+| --- | --- |
+| [Implementation notes](reconstruction/README.md) | How to run the exporter, what comes from the article, and every estimate and numerical repair. |
+| [Paper to code](PAPER-TO-CODE.md) | Which printed rule maps to which function, and whether it is published, interpreted, estimated or repaired. |
+| [Fidelity](FIDELITY.md) | How the `fitted` preset was calibrated against film samples, and how large the remaining mismatch is. |
+| [Phase cross](PHASE-FIT.md) | Why the chosen phase-fit objective, and what the alternatives change. |
+| [Memory budget](MEMORY-BUDGET.md) | A packed 45-bit data estimate, separate from the Python runtime. |
+| [C implementation](native/README.md) | The native streaming port, its parity checks and measured storage. |
+| [Lean proofs](formal/README.md) | Which mathematical claims are machine-checked, and which are not. |
+| [Research guide](RESEARCH.md) | Historical sources, exhibition, books, libraries and related work. |
+| [Attribution](ATTRIBUTION.md) | Authorship, citations and what the license does and does not cover. |
 
 ## Research and further reading
 
@@ -65,10 +77,7 @@ The [research guide](RESEARCH.md) collects the sources behind this project: the 
 
 Start with the [German exhibition blog](https://thekitty.art.blog/), its [exhibition review](https://thekitty.art.blog/interviews/), or the [book publisher's preview](https://www.ciconia-x-ciconia.net/ankunft-einer-katze). The guide distinguishes the exhibition's keyframed Blender recreation from the original mathematical controller and marks incomplete or unsuccessful source leads.
 
-The [historical programming section](RESEARCH.md#historical-programming-and-libraries)
-also covers the **Б-61 and ИС-22 libraries**, Kronrod's book, two 1964 programming
-papers, BESM-4 hardware documentation and a public M-20 emulator. It records what
-the public sources establish and which library volumes remain to be found.
+The [historical programming section](RESEARCH.md#historical-programming-and-libraries) also covers the **Б-61 and ИС-22 libraries**, Kronrod's book, two 1964 programming papers, BESM-4 hardware documentation and a public M-20 emulator. It records what the public sources establish and which library volumes remain to be found.
 
 ## Check it
 
@@ -85,6 +94,8 @@ For strict same-platform bitwise checks, set `KOSHECHKA_STRICT_GOLDEN=1`. CI use
 .venv/bin/python -m playwright install chromium
 .venv/bin/python scripts/browser_smoke.py
 ```
+
+The C port and Lean proofs have their own checks; see [native/README.md](native/README.md#validation) and [formal/README.md](formal/README.md).
 
 GitHub Actions checks Python 3.9, 3.11 and 3.13 and the local/hosted viewer plus native GCC/Clang parity, sanitizer checks, synthetic research checks and Lean proofs before publishing `main` to Pages. The static site is built from an explicit asset allowlist.
 

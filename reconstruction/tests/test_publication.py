@@ -19,7 +19,7 @@ class PublicationTests(unittest.TestCase):
 
     def test_documented_memory_budget(self):
         data = budget()
-        doc = (ROOT/'MEMORY.md').read_text()
+        doc = (ROOT/'MEMORY-BUDGET.md').read_text()
         self.assertIn(f"**{data['native_total_bytes']}**", doc)
         self.assertIn(f"**{data['total_words45']}**", doc)
         self.assertIn(f"{data['nodes']} nodes, {data['leaves']} leaves, depth {data['max_tree_depth']}", doc)
